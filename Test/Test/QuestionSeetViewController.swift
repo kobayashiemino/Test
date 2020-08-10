@@ -1,6 +1,7 @@
 import UIKit
 import GradientAnimator
 import MarqueeLabel
+import WCLShineButton
 
 class QuestionSeetViewController: UIViewController{
     
@@ -29,9 +30,31 @@ class QuestionSeetViewController: UIViewController{
         messageLabel.textColor = .white
         messageLabel.font = UIFont(name: "HelveticaNeue-Light", size: 30)
         messageLabel.type = .left
-        messageLabel.fadeLength = 20.0
+        messageLabel.fadeLength = 10.0
         messageLabel.animationDelay = 5.0
         messageLabel.speed = .duration(30)
         self.view.addSubview(messageLabel)
+    }
+    
+    func setupButton(image: UIImage, frame: CGRect, selector: Selector) {
+        var params = WCLShineParams()
+        params.bigShineColor = UIColor(rgb: (r: 252, g: 134, b:
+        170))
+        params.smallShineColor = UIColor(rgb: (r: 253, g: 177, b: 71))
+        
+        let shiningButton = WCLShineButton(frame: frame, params: params)
+        shiningButton.fillColor = UIColor(rgb: (r: 252, g: 134, b:
+        170))
+        shiningButton.color = .white
+        shiningButton.addTarget(self, action: selector, for: .valueChanged)
+        self.view.addSubview(shiningButton)
+    }
+    
+    @objc func onClickYesButton() {
+        
+    }
+    
+    @objc func onClickNoButton() {
+        
     }
 }
