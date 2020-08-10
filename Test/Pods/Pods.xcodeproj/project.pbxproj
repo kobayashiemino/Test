@@ -7,69 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2EAA77D383316657A52CAA20B447EE /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17D29B80E3F0E0B6459DC7E33AF140CA /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFE5D4A91CC23EFAAC38A66366A495 /* WCLShineClickLayer.swift */; };
-		205729B4AF44304859D69C642726E51E /* WCLShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F95E0E9E89570AFEC93784927C0B /* WCLShineParams.swift */; };
-		23D6EC0C91CBAA5E1FFBF2EB30982EBD /* WCLShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB04C62A984BA7725349230D5E2B26E0 /* WCLShineButton.bundle */; };
+		014E338FBB55A5A0040B62048EC07489 /* Image+FluentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5FD75BA0C293C1032ABF96490CF8C /* Image+FluentIcon.swift */; };
+		0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D06CD9DBD598F113D0357447A4D9F7B /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		144A14EC383412A2CE476B8E6C34BBB1 /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163306EA4692014BA1F5B4221BEB99E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		17D29B80E3F0E0B6459DC7E33AF140CA /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E581192E21ECA9C9B39E64FDC71992 /* WCLShineClickLayer.swift */; };
+		205729B4AF44304859D69C642726E51E /* WCLShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD62246678297329342618887F587E /* WCLShineParams.swift */; };
+		23D6EC0C91CBAA5E1FFBF2EB30982EBD /* WCLShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFC443286C7014AC7CD4248742ED4A48 /* WCLShineButton.bundle */; };
 		28FF2DD2E26316CA3F053BEA685AD6A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
 		325BA69A1881ED0F610714A630739449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		348AB06FA03843C7F684B227F944DD09 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C50E23C48B1B24ACE5DC89AFAC1118 /* CGRectEx.swift */; };
-		3D6BF53074B78F65DFF41B38593703F1 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D002A1193EFC8A825E333B2C858431C8 /* SpinerLayer.swift */; };
-		42719F081F577389CD7F0303C99F8D94 /* WCLShineButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C9E79E5189AB84EB8B5F37DE83C8F1 /* WCLShineButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		467CC5DA852ADAF47BC2236A2933FB88 /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C03D7E9BAF96E0A3323EB9BBDADF8C /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = D4A90A064F41CD52E3D3B8AD14AE6782 /* project.pbxproj */; };
-		5A2C5BF114417B16B3D8260F8C7241F2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 2986341975495677B665FF886377D8B6 /* contents.xcworkspacedata */; };
-		5D0591BE43A8249DBD3BE700539F3FF3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE288DEEB7067752AB4965A6E0F957 /* FadeTransition.swift */; };
-		5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F68294EC232052888F9D2AD4D30BA38 /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		606C057F6ABD31360C9DF359A70FC0D9 /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FEC1438C4D825D9A3D98623D42A6D0 /* GradientAnimator-dummy.m */; };
-		6945FE1B2E6E891DC09641774EA02A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		348AB06FA03843C7F684B227F944DD09 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793235E7EAA3E21C442E8990B0A2ABBB /* CGRectEx.swift */; };
+		3D6BF53074B78F65DFF41B38593703F1 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D12899BDB28CED65B747852229177 /* SpinerLayer.swift */; };
+		42719F081F577389CD7F0303C99F8D94 /* WCLShineButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C48B81A5A2AF32C2A478F2FD5B4B9B /* WCLShineButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46C03D7E9BAF96E0A3323EB9BBDADF8C /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = F130BEF68FC13107B4F93C7DA28D997A /* project.pbxproj */; };
+		56C472C943B9E8209DEA5144A721AB89 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */; };
+		5A2C5BF114417B16B3D8260F8C7241F2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = C84A0D0F6904A26640E57837167B99A6 /* contents.xcworkspacedata */; };
+		5D0591BE43A8249DBD3BE700539F3FF3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AFA361144C39BA44EE958B4DBC1685 /* FadeTransition.swift */; };
+		5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1503A15E1924BBBD14F124800DF0D8 /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606C057F6ABD31360C9DF359A70FC0D9 /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB682DCE158D711D62BB57A19BADDB /* GradientAnimator-dummy.m */; };
 		6B63A398C9377326BD64C20CC07CF08B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		7B63AD837478F740342440E6CD879425 /* GradientAnimator.podspec in Sources */ = {isa = PBXBuildFile; fileRef = C7FE00A110EF08BDD2BD2683166EA5E9 /* GradientAnimator.podspec */; };
-		7F91E347D1CDCC342F28CE918CCE71E7 /* WCLShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35635B1E6257D2658A5CE48EE5A2E2F /* WCLShineBundle.swift */; };
-		82FD19E901B1CA44502C6D11812982E1 /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB170E04BB9EA2DF458C61CE189E16B2 /* WCLShineAngleLayer.swift */; };
-		8316FEC4570F63DC64F650FFF2E9C985 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722890DF203E0E95CD12B419871F97BB /* GradientAnimator.swift */; };
-		8C8B6FA1A214E7C14E99C9AD49E59BA0 /* WCLShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A0822BA40BB9B12F06520A76BC2716 /* WCLShineButton.swift */; };
-		9278A2AFD4EE79BE58F83BB91CF0EAED /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDD915321769B089F855AF4FCC1839 /* TransitionSubmitButton.swift */; };
+		78334B95D982050B7D74D9E18A5360CC /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DE6EE7F8A6C71BECFBFF3A0EDB39C6 /* IconAssets.xcassets */; };
+		7B63AD837478F740342440E6CD879425 /* GradientAnimator.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 120DBEC6B89A9D5CC432776E23ECA6CD /* GradientAnimator.podspec */; };
+		7F91E347D1CDCC342F28CE918CCE71E7 /* WCLShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B999CF128975DCEC614724857A9A0F /* WCLShineBundle.swift */; };
+		82FD19E901B1CA44502C6D11812982E1 /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1517386D3F32D1EAC88D6B70573773BE /* WCLShineAngleLayer.swift */; };
+		8316FEC4570F63DC64F650FFF2E9C985 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2C8409DD1042D2DBAE2AB797E6AF91 /* GradientAnimator.swift */; };
+		8C8B6FA1A214E7C14E99C9AD49E59BA0 /* WCLShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E813FF2AF0A0AB68D5DFC84118036F /* WCLShineButton.swift */; };
+		9278A2AFD4EE79BE58F83BB91CF0EAED /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485388D79BAB1CDCF23B17343572777 /* TransitionSubmitButton.swift */; };
 		965CFE2257F25BA2AB1988700C0DC7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		9742A75149D4C168D4277BC897B6AEB2 /* FluentIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA723C77CFEA011B89C0DB63A9CB69E3 /* FluentIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AECEA9E14DAB08AE3D07D643D4AA6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
-		ADE8E38AE2FC314562F857E3D97467C4 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB5F1888453C66DEF6C80B93D649A7C /* MarqueeLabel-dummy.m */; };
-		AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7071B635D06AEE73B8901AF0F0B9AAD8 /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD503BE4798FC30D23AC747146D39FE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 786CF1AFA8533B60E75F57A47C38E237 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8BB2EAEB3F03D521DC374327ADD7FE7 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A6147254850DF2969EB7EE8334601 /* MarqueeLabel.swift */; };
-		CA7CE5E45BE7388DEACCE2158E96E59C /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E086D3286189928842FDDA2A23C10 /* TimerEx.swift */; };
-		D7976954BF5A487D4A56152DB9D840FA /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2DF043B151D7672C6101202262602 /* TKSubmitTransition-dummy.m */; };
-		D7D702E98AC1E133E09F5B6C2A54A6CF /* WCLShineButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3158114BF96209EE9D2423BA4F43846 /* WCLShineButton-dummy.m */; };
-		D81B5A18824ED0CE1BB89B0BA01C7F43 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 659ABAB6C5029E72D1417FA086507DEA /* Podfile */; };
+		ADE8E38AE2FC314562F857E3D97467C4 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2DDF0B27A5D2AC485945888C0AC5D1 /* MarqueeLabel-dummy.m */; };
+		AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 494CA9AB4A8DC209E7215BFB857043DE /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD503BE4798FC30D23AC747146D39FE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B1713C5217416C75DFCF108837ABB /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61F89F5F977289E7C2FCD193CBAACCE /* FluentIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7C1B58F27A81A7EA744DC657C9255D /* FluentIcons-dummy.m */; };
+		C717FBDDDB54392E933131E0C7DEE5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		C8BB2EAEB3F03D521DC374327ADD7FE7 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8DAA61C88E02E80388AF2AD62F9AE /* MarqueeLabel.swift */; };
+		CA7CE5E45BE7388DEACCE2158E96E59C /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA7A6C7C08CA84F12754725DEE6CF5 /* TimerEx.swift */; };
+		D7976954BF5A487D4A56152DB9D840FA /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C83AD8F35ECCABBAD10013DDF0A9F /* TKSubmitTransition-dummy.m */; };
+		D7D702E98AC1E133E09F5B6C2A54A6CF /* WCLShineButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D1C98923C4134E9E040FFFCC47D02 /* WCLShineButton-dummy.m */; };
+		D81B5A18824ED0CE1BB89B0BA01C7F43 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = C6C4B4CBCCDD12C8137B61535D86D3C4 /* Podfile */; };
+		E5097124B2063F2B0AC7C91EA825826F /* FluentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76AA52F3BFACEE91F0B0EA7BA00583 /* FluentIcon.swift */; };
 		E74AE53C7A1A5E8476D876FCEE4DA168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		EC3E9858A70131522B060F0016FA4374 /* WCLShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0574227FA2246964C7D2DE560B92870 /* WCLShineLayer.swift */; };
-		F28D9C5A364064B045BE2E4901CEC9C3 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */; };
-		F37B474F60E857441F2B70C84648BD27 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0F25643585639DABAA1D1FB3CECA464F /* IDEWorkspaceChecks.plist */; };
+		EC3E9858A70131522B060F0016FA4374 /* WCLShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B44BCE3FF8CEB1D3341BD84AE57D7 /* WCLShineLayer.swift */; };
+		F37B474F60E857441F2B70C84648BD27 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0CF7EADFAA22E9FB981F98DBA23719A5 /* IDEWorkspaceChecks.plist */; };
 		F9804CC0F10C7CCDE5A8ECC0FD4A5190 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		238F4CF489BFA2DA11984B5AF327C1AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E68819B18A89CCCC7E44BFE8750CD7C6;
-			remoteInfo = GradientAnimator;
-		};
-		2C292B45C9BAEA6C23973A2FF9FDBF62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C83993C8F5EFBE2ED74A821934C595E9;
-			remoteInfo = WCLShineButton;
-		};
-		3AE17A63F78A0200AA2AB1285FCEDACC /* PBXContainerItemProxy */ = {
+		65DCD11719FC18309A78654DECD8D8A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88457EBD8621B8664A94CAB3710C13EB;
 			remoteInfo = TKSubmitTransition;
 		};
-		7CC8F7350702D7F3E3A958DC4BBD71D5 /* PBXContainerItemProxy */ = {
+		7BB2AA468DA7EE274EAF24E93F806713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68819B18A89CCCC7E44BFE8750CD7C6;
+			remoteInfo = GradientAnimator;
+		};
+		8B0564A39351134EC1E2723188AF843F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83993C8F5EFBE2ED74A821934C595E9;
+			remoteInfo = WCLShineButton;
+		};
+		A7F4B02D4E6F0CC9E95B9342CFDC94B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87323DF34848D1588788E8CEC3ABE546;
+			remoteInfo = FluentIcons;
+		};
+		F5BB614E7B9F36783C633F2CE7BE4C4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -79,68 +92,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CDD915321769B089F855AF4FCC1839 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		01DB789C2620371CEBDC5913E09211AC /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
+		0485388D79BAB1CDCF23B17343572777 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		07DE6EE7F8A6C71BECFBFF3A0EDB39C6 /* IconAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = IconAssets.xcassets; path = ios/FluentIcons/Assets/IconAssets.xcassets; sourceTree = "<group>"; };
 		098814983BC053555A485F9F0FE788DC /* WCLShineButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCLShineButton.framework; path = WCLShineButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F25643585639DABAA1D1FB3CECA464F /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = IDEWorkspaceChecks.plist; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
+		0A8A6CBB7912D84F616F8E069101C5A7 /* WCLShineButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCLShineButton.modulemap; sourceTree = "<group>"; };
+		0CF7EADFAA22E9FB981F98DBA23719A5 /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = IDEWorkspaceChecks.plist; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
+		0D06CD9DBD598F113D0357447A4D9F7B /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
+		0F9713B33354602C5C0DBA3537B91AC6 /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
+		10BA388752C9C06B95C8DD9EA7F59BC8 /* WCLShineButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCLShineButton.xcconfig; sourceTree = "<group>"; };
+		120DBEC6B89A9D5CC432776E23ECA6CD /* GradientAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GradientAnimator.podspec; path = GradientAnimator/GradientAnimator.podspec; sourceTree = "<group>"; };
+		128BDF2EF8A9B4733F4DD18A37EFAB70 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
+		1517386D3F32D1EAC88D6B70573773BE /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineAngleLayer.swift; path = WCLShineButton/WCLShineAngleLayer.swift; sourceTree = "<group>"; };
+		185FB6318770800F575484B5F8B06016 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
 		20D4D5591C93D31554BAB819161AB098 /* Pods-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2422800B4EF0CF66F7E294C8C14E9323 /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
+		261D12899BDB28CED65B747852229177 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
 		268A5D7C9A934E87BE8F38BAA0AA9A3D /* Pods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test.modulemap"; sourceTree = "<group>"; };
-		2908621AD0A7AEA166B84CCB7723A3F3 /* WCLShineButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCLShineButton-prefix.pch"; sourceTree = "<group>"; };
-		2986341975495677B665FF886377D8B6 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
+		29BD62246678297329342618887F587E /* WCLShineParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineParams.swift; path = WCLShineButton/WCLShineParams.swift; sourceTree = "<group>"; };
 		2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
-		2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
-		2F68294EC232052888F9D2AD4D30BA38 /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
-		30C9E79E5189AB84EB8B5F37DE83C8F1 /* WCLShineButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCLShineButton-umbrella.h"; sourceTree = "<group>"; };
-		38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCLShineButton.xcconfig; sourceTree = "<group>"; };
+		2C866AEAC9B24A2F47766FF8B2FC9893 /* FluentIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FluentIcons.xcconfig; sourceTree = "<group>"; };
+		2D2C8409DD1042D2DBAE2AB797E6AF91 /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
+		32D8DAA61C88E02E80388AF2AD62F9AE /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
+		339D1C98923C4134E9E040FFFCC47D02 /* WCLShineButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCLShineButton-dummy.m"; sourceTree = "<group>"; };
+		35FE67463B55ACCC4E5095CFED5894F5 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		364B1713C5217416C75DFCF108837ABB /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		39558C249F2A958D2DD746C417296F44 /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
+		40C5FD75BA0C293C1032ABF96490CF8C /* Image+FluentIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+FluentIcon.swift"; path = "ios/FluentIcons/Classes/ios/Image+FluentIcon.swift"; sourceTree = "<group>"; };
 		43CF824FE4ADC368F7A98ADB5EDF7C19 /* Pods-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-frameworks.sh"; sourceTree = "<group>"; };
+		4535D737205038F0A09BED1C34F9BCB0 /* WCLShineButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCLShineButton-prefix.pch"; sourceTree = "<group>"; };
+		494CA9AB4A8DC209E7215BFB857043DE /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
 		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4DFE288DEEB7067752AB4965A6E0F957 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
-		548EE8DC24DD727E7C03BC494762AD2D /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
-		556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
+		4A67213D5EDAE0C0417099D578522FEF /* FluentIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FluentIcons-Info.plist"; sourceTree = "<group>"; };
+		5823688AC0140AF03B228FE3EAF337A5 /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
 		5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-dummy.m"; sourceTree = "<group>"; };
-		659ABAB6C5029E72D1417FA086507DEA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = GradientAnimator/Podfile; sourceTree = "<group>"; };
-		65B8F95E0E9E89570AFEC93784927C0B /* WCLShineParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineParams.swift; path = WCLShineButton/WCLShineParams.swift; sourceTree = "<group>"; };
+		5EEA7A6C7C08CA84F12754725DEE6CF5 /* TimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerEx.swift; path = SubmitTransition/Classes/TimerEx.swift; sourceTree = "<group>"; };
+		62B999CF128975DCEC614724857A9A0F /* WCLShineBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineBundle.swift; path = WCLShineButton/WCLShineBundle.swift; sourceTree = "<group>"; };
 		694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		69E581192E21ECA9C9B39E64FDC71992 /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineClickLayer.swift; path = WCLShineButton/WCLShineClickLayer.swift; sourceTree = "<group>"; };
+		6B1503A15E1924BBBD14F124800DF0D8 /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
 		6B9EE3B4930621E10589D86A6D6BF636 /* Pods-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test.framework; path = "Pods-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7071B635D06AEE73B8901AF0F0B9AAD8 /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
-		722890DF203E0E95CD12B419871F97BB /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
-		786CF1AFA8533B60E75F57A47C38E237 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
-		786F7EBA0B9FA626796215FBC9FBF382 /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
-		839A6147254850DF2969EB7EE8334601 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
+		77CEF679830BE2CB376F1FCA6D296825 /* TKSubmitTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKSubmitTransition-Info.plist"; sourceTree = "<group>"; };
+		793235E7EAA3E21C442E8990B0A2ABBB /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
 		89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKSubmitTransition.framework; path = TKSubmitTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AA6227CEA1DB4E9ABA99BF3013A280E /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
 		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		95CFE5D4A91CC23EFAAC38A66366A495 /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineClickLayer.swift; path = WCLShineButton/WCLShineClickLayer.swift; sourceTree = "<group>"; };
-		96D4D2059C36277B1DE878C5EBCDDA1B /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
-		9751191C1C7D44A4E2A06A200DA2DA61 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		972B44BCE3FF8CEB1D3341BD84AE57D7 /* WCLShineLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineLayer.swift; path = WCLShineButton/WCLShineLayer.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3158114BF96209EE9D2423BA4F43846 /* WCLShineButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCLShineButton-dummy.m"; sourceTree = "<group>"; };
-		A7A0822BA40BB9B12F06520A76BC2716 /* WCLShineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineButton.swift; path = WCLShineButton/WCLShineButton.swift; sourceTree = "<group>"; };
-		AA2EAA77D383316657A52CAA20B447EE /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
-		AACD0D088ECD2C1EF11B907C01BE0ECE /* WCLShineButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCLShineButton-Info.plist"; sourceTree = "<group>"; };
-		BB170E04BB9EA2DF458C61CE189E16B2 /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineAngleLayer.swift; path = WCLShineButton/WCLShineAngleLayer.swift; sourceTree = "<group>"; };
-		BC2E086D3286189928842FDDA2A23C10 /* TimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerEx.swift; path = SubmitTransition/Classes/TimerEx.swift; sourceTree = "<group>"; };
-		BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
-		BFEF06D353AA8527C7024F1896972E08 /* TKSubmitTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKSubmitTransition-Info.plist"; sourceTree = "<group>"; };
-		C15694FB7FD45435520683C5E23F0E59 /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
+		9E76AA52F3BFACEE91F0B0EA7BA00583 /* FluentIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluentIcon.swift; path = ios/FluentIcons/Classes/FluentIcon.swift; sourceTree = "<group>"; };
+		AA723C77CFEA011B89C0DB63A9CB69E3 /* FluentIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FluentIcons-umbrella.h"; sourceTree = "<group>"; };
+		AB1FB40BAC8F5A5C26A9AFD905E29F7A /* FluentIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FluentIcons.modulemap; sourceTree = "<group>"; };
+		AFC443286C7014AC7CD4248742ED4A48 /* WCLShineButton.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WCLShineButton.bundle; path = WCLShineButton/WCLShineButton.bundle; sourceTree = "<group>"; };
+		B9C48B81A5A2AF32C2A478F2FD5B4B9B /* WCLShineButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCLShineButton-umbrella.h"; sourceTree = "<group>"; };
+		BB69849D83C2C6438EABFCF0C5BA618E /* FluentIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FluentIcons-prefix.pch"; sourceTree = "<group>"; };
 		C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientAnimator.framework; path = GradientAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7FE00A110EF08BDD2BD2683166EA5E9 /* GradientAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GradientAnimator.podspec; path = GradientAnimator/GradientAnimator.podspec; sourceTree = "<group>"; };
-		C9C50E23C48B1B24ACE5DC89AFAC1118 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
+		C6C4B4CBCCDD12C8137B61535D86D3C4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = GradientAnimator/Podfile; sourceTree = "<group>"; };
+		C84A0D0F6904A26640E57837167B99A6 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
+		C992C133FA48A4CDDF5496F410DB863E /* WCLShineButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCLShineButton-Info.plist"; sourceTree = "<group>"; };
+		CAFB682DCE158D711D62BB57A19BADDB /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
 		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CC7C1B58F27A81A7EA744DC657C9255D /* FluentIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FluentIcons-dummy.m"; sourceTree = "<group>"; };
 		CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D002A1193EFC8A825E333B2C858431C8 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
+		CFDBBB2A07C0613F50516BBD043C5FF5 /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
+		D0957AC0C9C51E7E614DE51CCBBEA6BC /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
 		D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-umbrella.h"; sourceTree = "<group>"; };
-		D35635B1E6257D2658A5CE48EE5A2E2F /* WCLShineBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineBundle.swift; path = WCLShineButton/WCLShineBundle.swift; sourceTree = "<group>"; };
-		D4A90A064F41CD52E3D3B8AD14AE6782 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = GradientAnimator/GradientAnimator.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
-		DB04C62A984BA7725349230D5E2B26E0 /* WCLShineButton.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WCLShineButton.bundle; path = WCLShineButton/WCLShineButton.bundle; sourceTree = "<group>"; };
+		D2E813FF2AF0A0AB68D5DFC84118036F /* WCLShineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineButton.swift; path = WCLShineButton/WCLShineButton.swift; sourceTree = "<group>"; };
 		DC29F6173C1367F58B6FB6E9972D0F15 /* Pods-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Info.plist"; sourceTree = "<group>"; };
-		DEB5F1888453C66DEF6C80B93D649A7C /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
-		E96FA8F9DE61AE3BB550BD9D0D5D103C /* WCLShineButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCLShineButton.modulemap; sourceTree = "<group>"; };
-		F0574227FA2246964C7D2DE560B92870 /* WCLShineLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineLayer.swift; path = WCLShineButton/WCLShineLayer.swift; sourceTree = "<group>"; };
-		F26A455771ECB8289817F408F0CDA6B8 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
-		F4B2DF043B151D7672C6101202262602 /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
-		F8FEC1438C4D825D9A3D98623D42A6D0 /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
-		FF077189760770CAFEA234FA1FD8C214 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		DF2DDF0B27A5D2AC485945888C0AC5D1 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		E0C3C77E7C273816D069497F6727DABC /* FluentIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FluentIcons.framework; path = FluentIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10C83AD8F35ECCABBAD10013DDF0A9F /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
+		F130BEF68FC13107B4F93C7DA28D997A /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = GradientAnimator/GradientAnimator.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		F3AFA361144C39BA44EE958B4DBC1685 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
+		F6AAEFDC5B1D08DB67FA4BBB4853CABD /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +173,14 @@
 			files = (
 				6B63A398C9377326BD64C20CC07CF08B /* Foundation.framework in Frameworks */,
 				9AECEA9E14DAB08AE3D07D643D4AA6F1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5D358D17C37CA3648BD0D73973F64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C717FBDDDB54392E933131E0C7DEE5BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,11 +210,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F293EA871A447781B1A46130493F3074 /* Frameworks */ = {
+		B7D31165B578B94D2BC458715B99FE35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6945FE1B2E6E891DC09641774EA02A79 /* Foundation.framework in Frameworks */,
+				163306EA4692014BA1F5B4221BEB99E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,100 +229,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		157DABBE4F90554F0E437B649F79FF60 /* Support Files */ = {
+		1944E23ABB817F6A6958202EE6C68B7B /* GradientAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				E96FA8F9DE61AE3BB550BD9D0D5D103C /* WCLShineButton.modulemap */,
-				38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */,
-				A3158114BF96209EE9D2423BA4F43846 /* WCLShineButton-dummy.m */,
-				AACD0D088ECD2C1EF11B907C01BE0ECE /* WCLShineButton-Info.plist */,
-				2908621AD0A7AEA166B84CCB7723A3F3 /* WCLShineButton-prefix.pch */,
-				30C9E79E5189AB84EB8B5F37DE83C8F1 /* WCLShineButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WCLShineButton";
-			sourceTree = "<group>";
-		};
-		2655E322EFF33745DD7D752DC1C06BE7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9751191C1C7D44A4E2A06A200DA2DA61 /* MarqueeLabel.modulemap */,
-				BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */,
-				DEB5F1888453C66DEF6C80B93D649A7C /* MarqueeLabel-dummy.m */,
-				96D4D2059C36277B1DE878C5EBCDDA1B /* MarqueeLabel-Info.plist */,
-				FF077189760770CAFEA234FA1FD8C214 /* MarqueeLabel-prefix.pch */,
-				786CF1AFA8533B60E75F57A47C38E237 /* MarqueeLabel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MarqueeLabel";
-			sourceTree = "<group>";
-		};
-		31F37DC3694A91344688A16824D625A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C15694FB7FD45435520683C5E23F0E59 /* GradientAnimator.modulemap */,
-				556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */,
-				F8FEC1438C4D825D9A3D98623D42A6D0 /* GradientAnimator-dummy.m */,
-				786F7EBA0B9FA626796215FBC9FBF382 /* GradientAnimator-Info.plist */,
-				548EE8DC24DD727E7C03BC494762AD2D /* GradientAnimator-prefix.pch */,
-				7071B635D06AEE73B8901AF0F0B9AAD8 /* GradientAnimator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GradientAnimator";
-			sourceTree = "<group>";
-		};
-		44DD4062C7E16257BAD5AB540A581C01 /* WCLShineButton */ = {
-			isa = PBXGroup;
-			children = (
-				BB170E04BB9EA2DF458C61CE189E16B2 /* WCLShineAngleLayer.swift */,
-				D35635B1E6257D2658A5CE48EE5A2E2F /* WCLShineBundle.swift */,
-				A7A0822BA40BB9B12F06520A76BC2716 /* WCLShineButton.swift */,
-				95CFE5D4A91CC23EFAAC38A66366A495 /* WCLShineClickLayer.swift */,
-				F0574227FA2246964C7D2DE560B92870 /* WCLShineLayer.swift */,
-				65B8F95E0E9E89570AFEC93784927C0B /* WCLShineParams.swift */,
-				4B5F9250FC66BE4399ACEAB3BE73D622 /* Resources */,
-				157DABBE4F90554F0E437B649F79FF60 /* Support Files */,
-			);
-			name = WCLShineButton;
-			path = WCLShineButton;
-			sourceTree = "<group>";
-		};
-		4B5F9250FC66BE4399ACEAB3BE73D622 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DB04C62A984BA7725349230D5E2B26E0 /* WCLShineButton.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5CFBEA7A82458298C3726A894300B0DA /* GradientAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				2986341975495677B665FF886377D8B6 /* contents.xcworkspacedata */,
-				2F68294EC232052888F9D2AD4D30BA38 /* GradientAnimator.h */,
-				C7FE00A110EF08BDD2BD2683166EA5E9 /* GradientAnimator.podspec */,
-				722890DF203E0E95CD12B419871F97BB /* GradientAnimator.swift */,
-				0F25643585639DABAA1D1FB3CECA464F /* IDEWorkspaceChecks.plist */,
-				659ABAB6C5029E72D1417FA086507DEA /* Podfile */,
-				D4A90A064F41CD52E3D3B8AD14AE6782 /* project.pbxproj */,
-				31F37DC3694A91344688A16824D625A1 /* Support Files */,
+				C84A0D0F6904A26640E57837167B99A6 /* contents.xcworkspacedata */,
+				6B1503A15E1924BBBD14F124800DF0D8 /* GradientAnimator.h */,
+				120DBEC6B89A9D5CC432776E23ECA6CD /* GradientAnimator.podspec */,
+				2D2C8409DD1042D2DBAE2AB797E6AF91 /* GradientAnimator.swift */,
+				0CF7EADFAA22E9FB981F98DBA23719A5 /* IDEWorkspaceChecks.plist */,
+				C6C4B4CBCCDD12C8137B61535D86D3C4 /* Podfile */,
+				F130BEF68FC13107B4F93C7DA28D997A /* project.pbxproj */,
+				9565A6060042BDCF3F6D40438CC51E04 /* Support Files */,
 			);
 			name = GradientAnimator;
 			path = GradientAnimator;
 			sourceTree = "<group>";
 		};
-		5E50BA2728C49CD20A67C1B444569189 /* TKSubmitTransition */ = {
+		343F9F6D5453A68E41431FD1E386DF05 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C9C50E23C48B1B24ACE5DC89AFAC1118 /* CGRectEx.swift */,
-				4DFE288DEEB7067752AB4965A6E0F957 /* FadeTransition.swift */,
-				D002A1193EFC8A825E333B2C858431C8 /* SpinerLayer.swift */,
-				BC2E086D3286189928842FDDA2A23C10 /* TimerEx.swift */,
-				03CDD915321769B089F855AF4FCC1839 /* TransitionSubmitButton.swift */,
-				F78AB502F0BF9FF23BB4DEFAC84A3D72 /* Support Files */,
+				07DE6EE7F8A6C71BECFBFF3A0EDB39C6 /* IconAssets.xcassets */,
 			);
-			name = TKSubmitTransition;
-			path = TKSubmitTransition;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4320550DE22BD1F6E27CB35892AF2E6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFC443286C7014AC7CD4248742ED4A48 /* WCLShineButton.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		43F1D62B2721249173914159B7FB8652 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A6CBB7912D84F616F8E069101C5A7 /* WCLShineButton.modulemap */,
+				10BA388752C9C06B95C8DD9EA7F59BC8 /* WCLShineButton.xcconfig */,
+				339D1C98923C4134E9E040FFFCC47D02 /* WCLShineButton-dummy.m */,
+				C992C133FA48A4CDDF5496F410DB863E /* WCLShineButton-Info.plist */,
+				4535D737205038F0A09BED1C34F9BCB0 /* WCLShineButton-prefix.pch */,
+				B9C48B81A5A2AF32C2A478F2FD5B4B9B /* WCLShineButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WCLShineButton";
+			sourceTree = "<group>";
+		};
+		4B7AC44C987B0C4331604FE86356960D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				9E76AA52F3BFACEE91F0B0EA7BA00583 /* FluentIcon.swift */,
+				40C5FD75BA0C293C1032ABF96490CF8C /* Image+FluentIcon.swift */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		5AB0F1B6A4DDBA4711063394B91F2526 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				128BDF2EF8A9B4733F4DD18A37EFAB70 /* TKSubmitTransition.modulemap */,
+				39558C249F2A958D2DD746C417296F44 /* TKSubmitTransition.xcconfig */,
+				E10C83AD8F35ECCABBAD10013DDF0A9F /* TKSubmitTransition-dummy.m */,
+				77CEF679830BE2CB376F1FCA6D296825 /* TKSubmitTransition-Info.plist */,
+				0F9713B33354602C5C0DBA3537B91AC6 /* TKSubmitTransition-prefix.pch */,
+				0D06CD9DBD598F113D0357447A4D9F7B /* TKSubmitTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKSubmitTransition";
 			sourceTree = "<group>";
 		};
 		5FBA5CA3CAE4D2178AFFC55A5CD96EC8 /* Pods-Test */ = {
@@ -311,25 +315,71 @@
 			path = "Target Support Files/Pods-Test";
 			sourceTree = "<group>";
 		};
-		613801EDAEDB40DF16844E3DF5D2EAB2 /* MarqueeLabel */ = {
+		67323097B9E48F055FF54D9ED95CBEC9 /* MarqueeLabel */ = {
 			isa = PBXGroup;
 			children = (
-				839A6147254850DF2969EB7EE8334601 /* MarqueeLabel.swift */,
-				2655E322EFF33745DD7D752DC1C06BE7 /* Support Files */,
+				32D8DAA61C88E02E80388AF2AD62F9AE /* MarqueeLabel.swift */,
+				800F98BBB4ADBC21055A1EDA519FF739 /* Support Files */,
 			);
 			name = MarqueeLabel;
 			path = MarqueeLabel;
 			sourceTree = "<group>";
 		};
-		838262664BE62C5D91DBEFE3AA81FAF2 /* Pods */ = {
+		800F98BBB4ADBC21055A1EDA519FF739 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5CFBEA7A82458298C3726A894300B0DA /* GradientAnimator */,
-				613801EDAEDB40DF16844E3DF5D2EAB2 /* MarqueeLabel */,
-				5E50BA2728C49CD20A67C1B444569189 /* TKSubmitTransition */,
-				44DD4062C7E16257BAD5AB540A581C01 /* WCLShineButton */,
+				35FE67463B55ACCC4E5095CFED5894F5 /* MarqueeLabel.modulemap */,
+				F6AAEFDC5B1D08DB67FA4BBB4853CABD /* MarqueeLabel.xcconfig */,
+				DF2DDF0B27A5D2AC485945888C0AC5D1 /* MarqueeLabel-dummy.m */,
+				D0957AC0C9C51E7E614DE51CCBBEA6BC /* MarqueeLabel-Info.plist */,
+				185FB6318770800F575484B5F8B06016 /* MarqueeLabel-prefix.pch */,
+				364B1713C5217416C75DFCF108837ABB /* MarqueeLabel-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+		826034A1EAD054E5BB44092D6FCF1084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0C3C77E7C273816D069497F6727DABC /* FluentIcons.framework */,
+				C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */,
+				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */,
+				6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */,
+				89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */,
+				098814983BC053555A485F9F0FE788DC /* WCLShineButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827B2178C805B36EF11120163ED64433 /* WCLShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				1517386D3F32D1EAC88D6B70573773BE /* WCLShineAngleLayer.swift */,
+				62B999CF128975DCEC614724857A9A0F /* WCLShineBundle.swift */,
+				D2E813FF2AF0A0AB68D5DFC84118036F /* WCLShineButton.swift */,
+				69E581192E21ECA9C9B39E64FDC71992 /* WCLShineClickLayer.swift */,
+				972B44BCE3FF8CEB1D3341BD84AE57D7 /* WCLShineLayer.swift */,
+				29BD62246678297329342618887F587E /* WCLShineParams.swift */,
+				4320550DE22BD1F6E27CB35892AF2E6E /* Resources */,
+				43F1D62B2721249173914159B7FB8652 /* Support Files */,
+			);
+			name = WCLShineButton;
+			path = WCLShineButton;
+			sourceTree = "<group>";
+		};
+		9565A6060042BDCF3F6D40438CC51E04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFDBBB2A07C0613F50516BBD043C5FF5 /* GradientAnimator.modulemap */,
+				2422800B4EF0CF66F7E294C8C14E9323 /* GradientAnimator.xcconfig */,
+				CAFB682DCE158D711D62BB57A19BADDB /* GradientAnimator-dummy.m */,
+				5823688AC0140AF03B228FE3EAF337A5 /* GradientAnimator-Info.plist */,
+				01DB789C2620371CEBDC5913E09211AC /* GradientAnimator-prefix.pch */,
+				494CA9AB4A8DC209E7215BFB857043DE /* GradientAnimator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GradientAnimator";
 			sourceTree = "<group>";
 		};
 		99D4E3FE3065BAD11F04F08022A73A4D /* Targets Support Files */ = {
@@ -338,6 +388,53 @@
 				5FBA5CA3CAE4D2178AFFC55A5CD96EC8 /* Pods-Test */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A28A99FBAF6E94E9416E09FF8DF7762 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				343F9F6D5453A68E41431FD1E386DF05 /* Resources */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9BCF701BD556055BD8A93DA5D5AAE822 /* TKSubmitTransition */ = {
+			isa = PBXGroup;
+			children = (
+				793235E7EAA3E21C442E8990B0A2ABBB /* CGRectEx.swift */,
+				F3AFA361144C39BA44EE958B4DBC1685 /* FadeTransition.swift */,
+				261D12899BDB28CED65B747852229177 /* SpinerLayer.swift */,
+				5EEA7A6C7C08CA84F12754725DEE6CF5 /* TimerEx.swift */,
+				0485388D79BAB1CDCF23B17343572777 /* TransitionSubmitButton.swift */,
+				5AB0F1B6A4DDBA4711063394B91F2526 /* Support Files */,
+			);
+			name = TKSubmitTransition;
+			path = TKSubmitTransition;
+			sourceTree = "<group>";
+		};
+		A7DC1EA39A33DFCB266996F635420298 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FB40BAC8F5A5C26A9AFD905E29F7A /* FluentIcons.modulemap */,
+				2C866AEAC9B24A2F47766FF8B2FC9893 /* FluentIcons.xcconfig */,
+				CC7C1B58F27A81A7EA744DC657C9255D /* FluentIcons-dummy.m */,
+				4A67213D5EDAE0C0417099D578522FEF /* FluentIcons-Info.plist */,
+				BB69849D83C2C6438EABFCF0C5BA618E /* FluentIcons-prefix.pch */,
+				AA723C77CFEA011B89C0DB63A9CB69E3 /* FluentIcons-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FluentIcons";
+			sourceTree = "<group>";
+		};
+		C00F7BFE1E40D55EDA9E6540C4B01360 /* FluentIcons */ = {
+			isa = PBXGroup;
+			children = (
+				9A28A99FBAF6E94E9416E09FF8DF7762 /* Assets */,
+				4B7AC44C987B0C4331604FE86356960D /* Code */,
+				A7DC1EA39A33DFCB266996F635420298 /* Support Files */,
+			);
+			name = FluentIcons;
+			path = FluentIcons;
 			sourceTree = "<group>";
 		};
 		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
@@ -355,49 +452,27 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				838262664BE62C5D91DBEFE3AA81FAF2 /* Pods */,
-				F7C6CF6919C7C771D30539EABBCB5371 /* Products */,
+				DA6E85F512FDE03034A9050412A4F028 /* Pods */,
+				826034A1EAD054E5BB44092D6FCF1084 /* Products */,
 				99D4E3FE3065BAD11F04F08022A73A4D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F78AB502F0BF9FF23BB4DEFAC84A3D72 /* Support Files */ = {
+		DA6E85F512FDE03034A9050412A4F028 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F26A455771ECB8289817F408F0CDA6B8 /* TKSubmitTransition.modulemap */,
-				2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */,
-				F4B2DF043B151D7672C6101202262602 /* TKSubmitTransition-dummy.m */,
-				BFEF06D353AA8527C7024F1896972E08 /* TKSubmitTransition-Info.plist */,
-				8AA6227CEA1DB4E9ABA99BF3013A280E /* TKSubmitTransition-prefix.pch */,
-				AA2EAA77D383316657A52CAA20B447EE /* TKSubmitTransition-umbrella.h */,
+				C00F7BFE1E40D55EDA9E6540C4B01360 /* FluentIcons */,
+				1944E23ABB817F6A6958202EE6C68B7B /* GradientAnimator */,
+				67323097B9E48F055FF54D9ED95CBEC9 /* MarqueeLabel */,
+				9BCF701BD556055BD8A93DA5D5AAE822 /* TKSubmitTransition */,
+				827B2178C805B36EF11120163ED64433 /* WCLShineButton */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TKSubmitTransition";
-			sourceTree = "<group>";
-		};
-		F7C6CF6919C7C771D30539EABBCB5371 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */,
-				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */,
-				6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */,
-				89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */,
-				098814983BC053555A485F9F0FE788DC /* WCLShineButton.framework */,
-			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2633F1BCD12BBEB4C9FBA7BF64BBF89E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				467CC5DA852ADAF47BC2236A2933FB88 /* Pods-Test-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3076D331E9F18C1C52553382CDD01DA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,9 +506,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB17BBCCA9DD91A8EDFA77A318794235 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9742A75149D4C168D4277BC897B6AEB2 /* FluentIcons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCF13A741201EFDF062DD19BBEC24C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144A14EC383412A2CE476B8E6C34BBB1 /* Pods-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		87323DF34848D1588788E8CEC3ABE546 /* FluentIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BC47A08278F888CF13E6CB6ABA5F17 /* Build configuration list for PBXNativeTarget "FluentIcons" */;
+			buildPhases = (
+				CB17BBCCA9DD91A8EDFA77A318794235 /* Headers */,
+				87C139622FEB91F0852F701B63B7F766 /* Sources */,
+				B7D31165B578B94D2BC458715B99FE35 /* Frameworks */,
+				8C767A2EF798065B6F717177A4E230B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluentIcons;
+			productName = FluentIcons;
+			productReference = E0C3C77E7C273816D069497F6727DABC /* FluentIcons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E8D9041A451DBD0609ACDC82CD3BC9F /* Build configuration list for PBXNativeTarget "TKSubmitTransition" */;
@@ -454,20 +563,21 @@
 		};
 		A342EF7BEBD414FDBB3F0C4424819DF1 /* Pods-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 429597E6F2F0E1AD883ED2E4C234CA25 /* Build configuration list for PBXNativeTarget "Pods-Test" */;
+			buildConfigurationList = FC6D0A225C0559F68C5FD8B62258ED01 /* Build configuration list for PBXNativeTarget "Pods-Test" */;
 			buildPhases = (
-				2633F1BCD12BBEB4C9FBA7BF64BBF89E /* Headers */,
-				F3ED8DE6A57640589EF91D0AE57A4800 /* Sources */,
-				F293EA871A447781B1A46130493F3074 /* Frameworks */,
-				15BBAB4EDD795BFD75542A00C352664B /* Resources */,
+				FCCF13A741201EFDF062DD19BBEC24C4 /* Headers */,
+				BD4D1F41DFF7E100AA5EDB82C8835F1C /* Sources */,
+				3D5D358D17C37CA3648BD0D73973F64D /* Frameworks */,
+				243C411710064BF277FD3CD52ED08B88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA0605A9C0F9A9AF7AB1ABC5C3C18B7A /* PBXTargetDependency */,
-				A1E30804084F703D83A45F992290503E /* PBXTargetDependency */,
-				39809B7AF5A744250A03B81CCA463170 /* PBXTargetDependency */,
-				01B3A8BC9865CB464A4A0FFA3F928F9A /* PBXTargetDependency */,
+				0B9279A590F11B7CD4D8A5F22245C0BB /* PBXTargetDependency */,
+				B01A578046FF9D046B2E787F2594C008 /* PBXTargetDependency */,
+				79CF4FDC98C877937A537BF871CE26BE /* PBXTargetDependency */,
+				BFA39728E4656BBA6123DC860E2049B4 /* PBXTargetDependency */,
+				58BD081839E156F06FAEF6D1375B623B /* PBXTargetDependency */,
 			);
 			name = "Pods-Test";
 			productName = "Pods-Test";
@@ -546,10 +656,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F7C6CF6919C7C771D30539EABBCB5371 /* Products */;
+			productRefGroup = 826034A1EAD054E5BB44092D6FCF1084 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				87323DF34848D1588788E8CEC3ABE546 /* FluentIcons */,
 				E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */,
 				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
 				A342EF7BEBD414FDBB3F0C4424819DF1 /* Pods-Test */,
@@ -560,7 +671,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15BBAB4EDD795BFD75542A00C352664B /* Resources */ = {
+		243C411710064BF277FD3CD52ED08B88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -578,6 +689,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C767A2EF798065B6F717177A4E230B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78334B95D982050B7D74D9E18A5360CC /* IconAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +759,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87C139622FEB91F0852F701B63B7F766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5097124B2063F2B0AC7C91EA825826F /* FluentIcon.swift in Sources */,
+				C61F89F5F977289E7C2FCD193CBAACCE /* FluentIcons-dummy.m in Sources */,
+				014E338FBB55A5A0040B62048EC07489 /* Image+FluentIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FEEA90DA6EE49996DA2C10407C82C74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,47 +778,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3ED8DE6A57640589EF91D0AE57A4800 /* Sources */ = {
+		BD4D1F41DFF7E100AA5EDB82C8835F1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28D9C5A364064B045BE2E4901CEC9C3 /* Pods-Test-dummy.m in Sources */,
+				56C472C943B9E8209DEA5144A721AB89 /* Pods-Test-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01B3A8BC9865CB464A4A0FFA3F928F9A /* PBXTargetDependency */ = {
+		0B9279A590F11B7CD4D8A5F22245C0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FluentIcons;
+			target = 87323DF34848D1588788E8CEC3ABE546 /* FluentIcons */;
+			targetProxy = A7F4B02D4E6F0CC9E95B9342CFDC94B4 /* PBXContainerItemProxy */;
+		};
+		58BD081839E156F06FAEF6D1375B623B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WCLShineButton;
 			target = C83993C8F5EFBE2ED74A821934C595E9 /* WCLShineButton */;
-			targetProxy = 2C292B45C9BAEA6C23973A2FF9FDBF62 /* PBXContainerItemProxy */;
+			targetProxy = 8B0564A39351134EC1E2723188AF843F /* PBXContainerItemProxy */;
 		};
-		39809B7AF5A744250A03B81CCA463170 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TKSubmitTransition;
-			target = 88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */;
-			targetProxy = 3AE17A63F78A0200AA2AB1285FCEDACC /* PBXContainerItemProxy */;
-		};
-		A1E30804084F703D83A45F992290503E /* PBXTargetDependency */ = {
+		79CF4FDC98C877937A537BF871CE26BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MarqueeLabel;
 			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
-			targetProxy = 7CC8F7350702D7F3E3A958DC4BBD71D5 /* PBXContainerItemProxy */;
+			targetProxy = F5BB614E7B9F36783C633F2CE7BE4C4B /* PBXContainerItemProxy */;
 		};
-		EA0605A9C0F9A9AF7AB1ABC5C3C18B7A /* PBXTargetDependency */ = {
+		B01A578046FF9D046B2E787F2594C008 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GradientAnimator;
 			target = E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */;
-			targetProxy = 238F4CF489BFA2DA11984B5AF327C1AC /* PBXContainerItemProxy */;
+			targetProxy = 7BB2AA468DA7EE274EAF24E93F806713 /* PBXContainerItemProxy */;
+		};
+		BFA39728E4656BBA6123DC860E2049B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSubmitTransition;
+			target = 88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */;
+			targetProxy = 65DCD11719FC18309A78654DECD8D8A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0DFAF1EDB2B771572E292E123BB13628 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */;
+			baseConfigurationReference = 39558C249F2A958D2DD746C417296F44 /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -725,7 +860,7 @@
 		};
 		1866FC58F9555D87E5D7507F0A83A434 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */;
+			baseConfigurationReference = 10BA388752C9C06B95C8DD9EA7F59BC8 /* WCLShineButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -758,48 +893,9 @@
 			};
 			name = Debug;
 		};
-		1F9D354FF821CF7A44E8E0BE84D08136 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test/Pods-Test-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test/Pods-Test.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2D252B63CCD4C9EA633C0ED2DB6EFC49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */;
+			baseConfigurationReference = 2422800B4EF0CF66F7E294C8C14E9323 /* GradientAnimator.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -834,9 +930,45 @@
 			};
 			name = Release;
 		};
+		40556A524FD3D6356BD17F062A770A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C866AEAC9B24A2F47766FF8B2FC9893 /* FluentIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FluentIcons/FluentIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FluentIcons/FluentIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FluentIcons/FluentIcons.modulemap";
+				PRODUCT_MODULE_NAME = FluentIcons;
+				PRODUCT_NAME = FluentIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		41FB38BAEF8296215910E443C32788F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */;
+			baseConfigurationReference = 39558C249F2A958D2DD746C417296F44 /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -869,9 +1001,44 @@
 			};
 			name = Debug;
 		};
+		4D39E55E7A0A8C7715E48A42D2A006E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C866AEAC9B24A2F47766FF8B2FC9893 /* FluentIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FluentIcons/FluentIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FluentIcons/FluentIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FluentIcons/FluentIcons.modulemap";
+				PRODUCT_MODULE_NAME = FluentIcons;
+				PRODUCT_NAME = FluentIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6A97557C8EC9FA4C28D9CF7DF697D7F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */;
+			baseConfigurationReference = F6AAEFDC5B1D08DB67FA4BBB4853CABD /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -905,7 +1072,7 @@
 			};
 			name = Release;
 		};
-		7F15FD7A6CB3C27138A8FD0B9E6B9C0D /* Debug */ = {
+		6EC92B50DD29B3B7BE85E67DD426BDB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
@@ -1009,7 +1176,7 @@
 		};
 		9623DD818E07EC8ACCFBCD5B842AE67B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */;
+			baseConfigurationReference = 2422800B4EF0CF66F7E294C8C14E9323 /* GradientAnimator.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1045,7 +1212,7 @@
 		};
 		BCA67D9903B2E948C131C08F3FD16729 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */;
+			baseConfigurationReference = 10BA388752C9C06B95C8DD9EA7F59BC8 /* WCLShineButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1079,9 +1246,48 @@
 			};
 			name = Release;
 		};
+		BD31EEDDDDE7773D3C6DC9B7E11A9F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test/Pods-Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Test/Pods-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA4703F3BF54481C427815934F4D4D70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */;
+			baseConfigurationReference = F6AAEFDC5B1D08DB67FA4BBB4853CABD /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1195,15 +1401,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		429597E6F2F0E1AD883ED2E4C234CA25 /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7F15FD7A6CB3C27138A8FD0B9E6B9C0D /* Debug */,
-				1F9D354FF821CF7A44E8E0BE84D08136 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1227,6 +1424,24 @@
 			buildConfigurations = (
 				1866FC58F9555D87E5D7507F0A83A434 /* Debug */,
 				BCA67D9903B2E948C131C08F3FD16729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BC47A08278F888CF13E6CB6ABA5F17 /* Build configuration list for PBXNativeTarget "FluentIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D39E55E7A0A8C7715E48A42D2A006E4 /* Debug */,
+				40556A524FD3D6356BD17F062A770A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6D0A225C0559F68C5FD8B62258ED01 /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC92B50DD29B3B7BE85E67DD426BDB7 /* Debug */,
+				BD31EEDDDDE7773D3C6DC9B7E11A9F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

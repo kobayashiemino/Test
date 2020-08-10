@@ -2,6 +2,7 @@ import UIKit
 import GradientAnimator
 import MarqueeLabel
 import WCLShineButton
+import FluentIcons
 
 class QuestionSeetViewController: UIViewController{
     
@@ -46,6 +47,7 @@ class QuestionSeetViewController: UIViewController{
         shiningButton.fillColor = UIColor(rgb: (r: 252, g: 134, b:
         170))
         shiningButton.color = .white
+        shiningButton.image = .custom(image)
         shiningButton.addTarget(self, action: selector, for: .valueChanged)
         self.view.addSubview(shiningButton)
     }
