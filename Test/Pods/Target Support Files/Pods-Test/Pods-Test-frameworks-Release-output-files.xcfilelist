@@ -1,2 +1,3 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientAnimator.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKSubmitTransition.framework

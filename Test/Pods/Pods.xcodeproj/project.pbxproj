@@ -7,88 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D28B2DE36DCE29C27535772993C0693B /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348AB06FA03843C7F684B227F944DD09 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1964F2B16A820311612DEBEACC09B66F /* CGRectEx.swift */; };
-		3D6BF53074B78F65DFF41B38593703F1 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ECE84866565747069B14FAB2309BCD /* SpinerLayer.swift */; };
-		46C03D7E9BAF96E0A3323EB9BBDADF8C /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = D3E57AFB4BD3F6B49625FAD7D369475E /* project.pbxproj */; };
-		5A2C5BF114417B16B3D8260F8C7241F2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = D8919B83ED5286CB8E9460B3F1544F99 /* contents.xcworkspacedata */; };
-		5D0591BE43A8249DBD3BE700539F3FF3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5F20EDEEC62C7CA6F2982A00F2AB6 /* FadeTransition.swift */; };
-		5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = F6BAF0939AEC4CCE2A86BCFF57B69763 /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		606C057F6ABD31360C9DF359A70FC0D9 /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E387B3C4B9E5AC81BF06C43F0997EAC /* GradientAnimator-dummy.m */; };
-		6DB7684AE867E339C995595161178907 /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B63AD837478F740342440E6CD879425 /* GradientAnimator.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 63F1A0359441DB31CB9D63CA614E2CF6 /* GradientAnimator.podspec */; };
-		8316FEC4570F63DC64F650FFF2E9C985 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D21D771D33F75E1D61CDCE601B69D9 /* GradientAnimator.swift */; };
-		9278A2AFD4EE79BE58F83BB91CF0EAED /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336402F0BB2B0B6AF455CAD0BA79806E /* TransitionSubmitButton.swift */; };
-		965CFE2257F25BA2AB1988700C0DC7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A26EE406955B3F1E3DF0FB8710B5DB /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C53B2EA20D4F335BC370C180E44EC993 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */; };
-		CA7CE5E45BE7388DEACCE2158E96E59C /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60FF1BDD8AE929BED698DE82CDF6E53 /* TimerEx.swift */; };
-		D7976954BF5A487D4A56152DB9D840FA /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9EAD8616E1383797002D3B023C80BE /* TKSubmitTransition-dummy.m */; };
-		D81B5A18824ED0CE1BB89B0BA01C7F43 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = BF92BBAF4A445772E2BA7D0291DDA6D1 /* Podfile */; };
-		DF6AE42F04A468636A9178C659697ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E74AE53C7A1A5E8476D876FCEE4DA168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F37B474F60E857441F2B70C84648BD27 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = C7F03BC099679D506C5B1B6C55CCE2DC /* IDEWorkspaceChecks.plist */; };
+		0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F208A883C1A7E2D7530918879AAE07 /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28FF2DD2E26316CA3F053BEA685AD6A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		325BA69A1881ED0F610714A630739449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		348AB06FA03843C7F684B227F944DD09 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A45DB682C05E759ADE56497F6E7FDB /* CGRectEx.swift */; };
+		3D6BF53074B78F65DFF41B38593703F1 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBD2683DB2572128E4E0102C9B0E6D /* SpinerLayer.swift */; };
+		46C03D7E9BAF96E0A3323EB9BBDADF8C /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = A384C3F4E454D461BBAF7275542DB745 /* project.pbxproj */; };
+		5A2C5BF114417B16B3D8260F8C7241F2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 7BD86126C5FCC5D858D63A8ADA8F556B /* contents.xcworkspacedata */; };
+		5D0591BE43A8249DBD3BE700539F3FF3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FDD17BD0763F077B6D8C01F41C2F6A /* FadeTransition.swift */; };
+		5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6695ABADD32458D91EE30D72809D0DB3 /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606C057F6ABD31360C9DF359A70FC0D9 /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628FD99E718F9AD03A7DED6EE3BDC1D4 /* GradientAnimator-dummy.m */; };
+		7B63AD837478F740342440E6CD879425 /* GradientAnimator.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 426AFF97BA5D735875043207923F6225 /* GradientAnimator.podspec */; };
+		8316FEC4570F63DC64F650FFF2E9C985 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871D2C21154D236D49530AA71BF96A3 /* GradientAnimator.swift */; };
+		9278A2AFD4EE79BE58F83BB91CF0EAED /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB320CBF6026C3219A04725E205F54 /* TransitionSubmitButton.swift */; };
+		965CFE2257F25BA2AB1988700C0DC7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		9C6D21F7B07FE439710EF438D94F6D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		A0F7ECC2EC66BBB2360D674C7B1DA81C /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE8E38AE2FC314562F857E3D97467C4 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABC5B0585AF5848AF14E1C7580BA5 /* MarqueeLabel-dummy.m */; };
+		AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028FC52089F6A342DD498125FF89277F /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11AA7EF304DED7534AADFE52E524867 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */; };
+		BD503BE4798FC30D23AC747146D39FE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F21C45906CB15FAA655F91362BF768 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BB2EAEB3F03D521DC374327ADD7FE7 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB85197BCD43363BBF4EF9AA6C6E7324 /* MarqueeLabel.swift */; };
+		CA7CE5E45BE7388DEACCE2158E96E59C /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A80B66C326A55DFD6C68118F733E0E /* TimerEx.swift */; };
+		D7976954BF5A487D4A56152DB9D840FA /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F987DC76CCB768391CF6FCC829FA98 /* TKSubmitTransition-dummy.m */; };
+		D81B5A18824ED0CE1BB89B0BA01C7F43 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = B51285B623D93D313C54C97FE2436BC9 /* Podfile */; };
+		E74AE53C7A1A5E8476D876FCEE4DA168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		F37B474F60E857441F2B70C84648BD27 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = 10267A367B92637CF35472036F2CF0B0 /* IDEWorkspaceChecks.plist */; };
+		F9804CC0F10C7CCDE5A8ECC0FD4A5190 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DDAA4CD25C048B6F28B8FD4AB3B049E /* PBXContainerItemProxy */ = {
+		27E556C75C0BF9F6A16F8115A3FFF5FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88457EBD8621B8664A94CAB3710C13EB;
 			remoteInfo = TKSubmitTransition;
 		};
-		AB48CBAA6BC3EC3D8061EADD09D78FEF /* PBXContainerItemProxy */ = {
+		4818B98DC4D0615D8062FCE030622082 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E68819B18A89CCCC7E44BFE8750CD7C6;
 			remoteInfo = GradientAnimator;
 		};
+		63AB2CD1EE12D8389A2FB8632504B5F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23DB88E45B0ED14F0C8827BE9C46C95;
+			remoteInfo = MarqueeLabel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045E6F565FEE0EACBD641DEB037B3B9D /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
-		13E08097DFDE0FF675BB0E88F77AA5EB /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
-		1964F2B16A820311612DEBEACC09B66F /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
-		1E387B3C4B9E5AC81BF06C43F0997EAC /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
+		028FC52089F6A342DD498125FF89277F /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
+		10267A367B92637CF35472036F2CF0B0 /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = IDEWorkspaceChecks.plist; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
+		11F21C45906CB15FAA655F91362BF768 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
 		20D4D5591C93D31554BAB819161AB098 /* Pods-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2213C4313017C0E010114DDCB8F37DF6 /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
 		268A5D7C9A934E87BE8F38BAA0AA9A3D /* Pods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test.modulemap"; sourceTree = "<group>"; };
+		26ED1FDDA84290577B094F85A5B77FBD /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
+		2871D2C21154D236D49530AA71BF96A3 /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
 		2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		336402F0BB2B0B6AF455CAD0BA79806E /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
-		42D21D771D33F75E1D61CDCE601B69D9 /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
+		2CA80B85C57E7F98CBFDB04BD846A521 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		32A89774F4A4B54ECCC9280F44629DF9 /* TKSubmitTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKSubmitTransition-Info.plist"; sourceTree = "<group>"; };
+		426AFF97BA5D735875043207923F6225 /* GradientAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GradientAnimator.podspec; path = GradientAnimator/GradientAnimator.podspec; sourceTree = "<group>"; };
 		43CF824FE4ADC368F7A98ADB5EDF7C19 /* Pods-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-frameworks.sh"; sourceTree = "<group>"; };
+		43F987DC76CCB768391CF6FCC829FA98 /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
+		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		56920514E8D4F15418F4761FDBC247BA /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
 		5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-dummy.m"; sourceTree = "<group>"; };
-		63F1A0359441DB31CB9D63CA614E2CF6 /* GradientAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GradientAnimator.podspec; path = GradientAnimator/GradientAnimator.podspec; sourceTree = "<group>"; };
+		5C624624A297C128240141FB4F23EC61 /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
+		5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		628FD99E718F9AD03A7DED6EE3BDC1D4 /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
+		65A45DB682C05E759ADE56497F6E7FDB /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
+		6695ABADD32458D91EE30D72809D0DB3 /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
 		694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		6B9EE3B4930621E10589D86A6D6BF636 /* Pods-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test.framework; path = "Pods-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80F5F20EDEEC62C7CA6F2982A00F2AB6 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
-		8161F9B3698CCE2F6BB95D8484DFB6E8 /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
-		81ECE84866565747069B14FAB2309BCD /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
+		72A80B66C326A55DFD6C68118F733E0E /* TimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerEx.swift; path = SubmitTransition/Classes/TimerEx.swift; sourceTree = "<group>"; };
+		77F208A883C1A7E2D7530918879AAE07 /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
+		7BD86126C5FCC5D858D63A8ADA8F556B /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
+		7DBABC5B0585AF5848AF14E1C7580BA5 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		84CBD2683DB2572128E4E0102C9B0E6D /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
 		89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKSubmitTransition.framework; path = TKSubmitTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90408918CA7C821FB7AE8A8DBE149C30 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
-		97A2B7798A5B9A9ABB1F7AEB5FA54398 /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
-		987973AA1C6CF6EB44D80E994FB766FE /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
+		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9EAD8616E1383797002D3B023C80BE /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
-		A7A26EE406955B3F1E3DF0FB8710B5DB /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
-		BF92BBAF4A445772E2BA7D0291DDA6D1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = GradientAnimator/Podfile; sourceTree = "<group>"; };
+		9F2A87A3E918CDCCFDB78FCF079181EB /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		A384C3F4E454D461BBAF7275542DB745 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = GradientAnimator/GradientAnimator.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		AB85197BCD43363BBF4EF9AA6C6E7324 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
+		AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
+		B51285B623D93D313C54C97FE2436BC9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = GradientAnimator/Podfile; sourceTree = "<group>"; };
 		C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientAnimator.framework; path = GradientAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7F03BC099679D506C5B1B6C55CCE2DC /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = IDEWorkspaceChecks.plist; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
+		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D011256DB909D2AE96A367F793EF0DAD /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
 		D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-umbrella.h"; sourceTree = "<group>"; };
-		D28B2DE36DCE29C27535772993C0693B /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
-		D3E57AFB4BD3F6B49625FAD7D369475E /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = GradientAnimator/GradientAnimator.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
-		D8919B83ED5286CB8E9460B3F1544F99 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
 		DC29F6173C1367F58B6FB6E9972D0F15 /* Pods-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Info.plist"; sourceTree = "<group>"; };
-		E96ED7BCEEFBF7086AFE3286E2800163 /* TKSubmitTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKSubmitTransition-Info.plist"; sourceTree = "<group>"; };
-		F60FF1BDD8AE929BED698DE82CDF6E53 /* TimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerEx.swift; path = SubmitTransition/Classes/TimerEx.swift; sourceTree = "<group>"; };
-		F6BAF0939AEC4CCE2A86BCFF57B69763 /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
+		E4073B93CED18D7C1E6C8AAC47586107 /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
+		E6FDD17BD0763F077B6D8C01F41C2F6A /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
+		F1AB320CBF6026C3219A04725E205F54 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		F58BB32B7A93C5A71847272AC840FC23 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4274CA0E731AECC68C24808C7E6703AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325BA69A1881ED0F610714A630739449 /* Foundation.framework in Frameworks */,
+				F9804CC0F10C7CCDE5A8ECC0FD4A5190 /* QuartzCore.framework in Frameworks */,
+				28FF2DD2E26316CA3F053BEA685AD6A1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5ECC76400226415B183C51D3E136A068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,29 +138,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CF90963358D9F6C53F34495FACB8B29 /* Frameworks */ = {
+		E2614CD421187D2D3F93B171984A02F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6AE42F04A468636A9178C659697ACF /* Foundation.framework in Frameworks */,
+				9C6D21F7B07FE439710EF438D94F6D80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D95D4C24BE8EAABCC84D87349ED101E /* TKSubmitTransition */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1964F2B16A820311612DEBEACC09B66F /* CGRectEx.swift */,
-				80F5F20EDEEC62C7CA6F2982A00F2AB6 /* FadeTransition.swift */,
-				81ECE84866565747069B14FAB2309BCD /* SpinerLayer.swift */,
-				F60FF1BDD8AE929BED698DE82CDF6E53 /* TimerEx.swift */,
-				336402F0BB2B0B6AF455CAD0BA79806E /* TransitionSubmitButton.swift */,
-				69DC4F85DF1146E195D6C0565BB39D2F /* Support Files */,
+				C18BABFF9523A33465B5A91496FF0C3D /* iOS */,
 			);
-			name = TKSubmitTransition;
-			path = TKSubmitTransition;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09582EB20A6A08ABAB7CFF618EFD007D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E447F2C688B2B8510A9356CA6A71F1A /* GradientAnimator */,
+				3210C4F67391F156CFF13075D28AF193 /* MarqueeLabel */,
+				96FA7761C023F169AE2F4F82E747EEFB /* TKSubmitTransition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DC1208A1BFD7D2EDCA7635E61C44F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */,
+				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */,
+				6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */,
+				89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3210C4F67391F156CFF13075D28AF193 /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AB85197BCD43363BBF4EF9AA6C6E7324 /* MarqueeLabel.swift */,
+				AC406799EC6F2A5668A268070703220D /* Support Files */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		3401BC1FC5053F7EAD72B7D70FAF6780 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F58BB32B7A93C5A71847272AC840FC23 /* TKSubmitTransition.modulemap */,
+				1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */,
+				43F987DC76CCB768391CF6FCC829FA98 /* TKSubmitTransition-dummy.m */,
+				32A89774F4A4B54ECCC9280F44629DF9 /* TKSubmitTransition-Info.plist */,
+				E4073B93CED18D7C1E6C8AAC47586107 /* TKSubmitTransition-prefix.pch */,
+				77F208A883C1A7E2D7530918879AAE07 /* TKSubmitTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKSubmitTransition";
 			sourceTree = "<group>";
 		};
 		5FBA5CA3CAE4D2178AFFC55A5CD96EC8 /* Pods-Test */ = {
@@ -147,41 +219,48 @@
 			path = "Target Support Files/Pods-Test";
 			sourceTree = "<group>";
 		};
-		69DC4F85DF1146E195D6C0565BB39D2F /* Support Files */ = {
+		8E447F2C688B2B8510A9356CA6A71F1A /* GradientAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				90408918CA7C821FB7AE8A8DBE149C30 /* TKSubmitTransition.modulemap */,
-				2213C4313017C0E010114DDCB8F37DF6 /* TKSubmitTransition.xcconfig */,
-				9D9EAD8616E1383797002D3B023C80BE /* TKSubmitTransition-dummy.m */,
-				E96ED7BCEEFBF7086AFE3286E2800163 /* TKSubmitTransition-Info.plist */,
-				987973AA1C6CF6EB44D80E994FB766FE /* TKSubmitTransition-prefix.pch */,
-				D28B2DE36DCE29C27535772993C0693B /* TKSubmitTransition-umbrella.h */,
+				7BD86126C5FCC5D858D63A8ADA8F556B /* contents.xcworkspacedata */,
+				6695ABADD32458D91EE30D72809D0DB3 /* GradientAnimator.h */,
+				426AFF97BA5D735875043207923F6225 /* GradientAnimator.podspec */,
+				2871D2C21154D236D49530AA71BF96A3 /* GradientAnimator.swift */,
+				10267A367B92637CF35472036F2CF0B0 /* IDEWorkspaceChecks.plist */,
+				B51285B623D93D313C54C97FE2436BC9 /* Podfile */,
+				A384C3F4E454D461BBAF7275542DB745 /* project.pbxproj */,
+				9478D36D0215D475F32CD41E0D34216D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TKSubmitTransition";
+			name = GradientAnimator;
+			path = GradientAnimator;
 			sourceTree = "<group>";
 		};
-		6B8ADCED3E133DABB6FA0CFC5AA816DF /* Support Files */ = {
+		9478D36D0215D475F32CD41E0D34216D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8161F9B3698CCE2F6BB95D8484DFB6E8 /* GradientAnimator.modulemap */,
-				13E08097DFDE0FF675BB0E88F77AA5EB /* GradientAnimator.xcconfig */,
-				1E387B3C4B9E5AC81BF06C43F0997EAC /* GradientAnimator-dummy.m */,
-				97A2B7798A5B9A9ABB1F7AEB5FA54398 /* GradientAnimator-Info.plist */,
-				045E6F565FEE0EACBD641DEB037B3B9D /* GradientAnimator-prefix.pch */,
-				A7A26EE406955B3F1E3DF0FB8710B5DB /* GradientAnimator-umbrella.h */,
+				5C624624A297C128240141FB4F23EC61 /* GradientAnimator.modulemap */,
+				AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */,
+				628FD99E718F9AD03A7DED6EE3BDC1D4 /* GradientAnimator-dummy.m */,
+				D011256DB909D2AE96A367F793EF0DAD /* GradientAnimator-Info.plist */,
+				26ED1FDDA84290577B094F85A5B77FBD /* GradientAnimator-prefix.pch */,
+				028FC52089F6A342DD498125FF89277F /* GradientAnimator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GradientAnimator";
 			sourceTree = "<group>";
 		};
-		8161DCDD7A9D668B4753D5F0AD7D1C5A /* Pods */ = {
+		96FA7761C023F169AE2F4F82E747EEFB /* TKSubmitTransition */ = {
 			isa = PBXGroup;
 			children = (
-				DA176D61D1D9C8BF32F31B75D03B938F /* GradientAnimator */,
-				2D95D4C24BE8EAABCC84D87349ED101E /* TKSubmitTransition */,
+				65A45DB682C05E759ADE56497F6E7FDB /* CGRectEx.swift */,
+				E6FDD17BD0763F077B6D8C01F41C2F6A /* FadeTransition.swift */,
+				84CBD2683DB2572128E4E0102C9B0E6D /* SpinerLayer.swift */,
+				72A80B66C326A55DFD6C68118F733E0E /* TimerEx.swift */,
+				F1AB320CBF6026C3219A04725E205F54 /* TransitionSubmitButton.swift */,
+				3401BC1FC5053F7EAD72B7D70FAF6780 /* Support Files */,
 			);
-			name = Pods;
+			name = TKSubmitTransition;
+			path = TKSubmitTransition;
 			sourceTree = "<group>";
 		};
 		99D4E3FE3065BAD11F04F08022A73A4D /* Targets Support Files */ = {
@@ -192,10 +271,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		AC406799EC6F2A5668A268070703220D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				2CA80B85C57E7F98CBFDB04BD846A521 /* MarqueeLabel.modulemap */,
+				5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */,
+				7DBABC5B0585AF5848AF14E1C7580BA5 /* MarqueeLabel-dummy.m */,
+				56920514E8D4F15418F4761FDBC247BA /* MarqueeLabel-Info.plist */,
+				9F2A87A3E918CDCCFDB78FCF079181EB /* MarqueeLabel-prefix.pch */,
+				11F21C45906CB15FAA655F91362BF768 /* MarqueeLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */,
+				CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */,
+				49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -204,50 +299,32 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8161DCDD7A9D668B4753D5F0AD7D1C5A /* Pods */,
-				E1050D95AE040D5C1953D08BA33328B1 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				09582EB20A6A08ABAB7CFF618EFD007D /* Pods */,
+				0DC1208A1BFD7D2EDCA7635E61C44F50 /* Products */,
 				99D4E3FE3065BAD11F04F08022A73A4D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA176D61D1D9C8BF32F31B75D03B938F /* GradientAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				D8919B83ED5286CB8E9460B3F1544F99 /* contents.xcworkspacedata */,
-				F6BAF0939AEC4CCE2A86BCFF57B69763 /* GradientAnimator.h */,
-				63F1A0359441DB31CB9D63CA614E2CF6 /* GradientAnimator.podspec */,
-				42D21D771D33F75E1D61CDCE601B69D9 /* GradientAnimator.swift */,
-				C7F03BC099679D506C5B1B6C55CCE2DC /* IDEWorkspaceChecks.plist */,
-				BF92BBAF4A445772E2BA7D0291DDA6D1 /* Podfile */,
-				D3E57AFB4BD3F6B49625FAD7D369475E /* project.pbxproj */,
-				6B8ADCED3E133DABB6FA0CFC5AA816DF /* Support Files */,
-			);
-			name = GradientAnimator;
-			path = GradientAnimator;
-			sourceTree = "<group>";
-		};
-		E1050D95AE040D5C1953D08BA33328B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */,
-				6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */,
-				89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3076D331E9F18C1C52553382CDD01DA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD503BE4798FC30D23AC747146D39FE2 /* MarqueeLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFA5C3FCD75E1B42BEC6AF3D0157EF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F7ECC2EC66BBB2360D674C7B1DA81C /* Pods-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9693B765A8516963EDF9A16B921B42E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,14 +339,6 @@
 			files = (
 				AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */,
 				5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF71CA910E3759F66FEA0C554D0FEB8D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DB7684AE867E339C995595161178907 /* Pods-Test-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,22 +365,41 @@
 		};
 		A342EF7BEBD414FDBB3F0C4424819DF1 /* Pods-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69CA360511F1408E3BFC6BE80B6B3CC4 /* Build configuration list for PBXNativeTarget "Pods-Test" */;
+			buildConfigurationList = DF0734E5AF5EE13DB81678E35DA887FE /* Build configuration list for PBXNativeTarget "Pods-Test" */;
 			buildPhases = (
-				FF71CA910E3759F66FEA0C554D0FEB8D /* Headers */,
-				D00744CCB74E8C9FBF887BAD052FDD8C /* Sources */,
-				7CF90963358D9F6C53F34495FACB8B29 /* Frameworks */,
-				C92B3BB68E01ABAFBE74A5F8D1648D59 /* Resources */,
+				4EFA5C3FCD75E1B42BEC6AF3D0157EF4 /* Headers */,
+				CAF46A518329F25911F6312BBCE6BFAE /* Sources */,
+				E2614CD421187D2D3F93B171984A02F2 /* Frameworks */,
+				28D0FB72D3E2DB0F7CA41A7200102DCC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				89BB6AA783BCF08E3C37ECE6F1AFE280 /* PBXTargetDependency */,
-				267B57D110547F38F9ECF3DBFF8B030A /* PBXTargetDependency */,
+				543C505704FB5B50CD6F6EFFE82FD923 /* PBXTargetDependency */,
+				8E666C8FF1FB3D5F6FC5F2478819694D /* PBXTargetDependency */,
+				E12DFAE22A54197242EE4347FAE4167F /* PBXTargetDependency */,
 			);
 			name = "Pods-Test";
 			productName = "Pods-Test";
 			productReference = 6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25360692F94D05B6B4344D370C7EC6AA /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
+			buildPhases = (
+				3076D331E9F18C1C52553382CDD01DA8 /* Headers */,
+				8FEEA90DA6EE49996DA2C10407C82C74 /* Sources */,
+				4274CA0E731AECC68C24808C7E6703AA /* Frameworks */,
+				888A2E430615987F208E1A0B7610045B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeLabel;
+			productName = MarqueeLabel;
+			productReference = CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */ = {
@@ -350,11 +438,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E1050D95AE040D5C1953D08BA33328B1 /* Products */;
+			productRefGroup = 0DC1208A1BFD7D2EDCA7635E61C44F50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */,
+				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
 				A342EF7BEBD414FDBB3F0C4424819DF1 /* Pods-Test */,
 				88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */,
 			);
@@ -362,6 +451,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		28D0FB72D3E2DB0F7CA41A7200102DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D94BBAE63656494B1A63211681F3C51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,7 +465,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C92B3BB68E01ABAFBE74A5F8D1648D59 /* Resources */ = {
+		888A2E430615987F208E1A0B7610045B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,35 +509,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D00744CCB74E8C9FBF887BAD052FDD8C /* Sources */ = {
+		8FEEA90DA6EE49996DA2C10407C82C74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53B2EA20D4F335BC370C180E44EC993 /* Pods-Test-dummy.m in Sources */,
+				ADE8E38AE2FC314562F857E3D97467C4 /* MarqueeLabel-dummy.m in Sources */,
+				C8BB2EAEB3F03D521DC374327ADD7FE7 /* MarqueeLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF46A518329F25911F6312BBCE6BFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11AA7EF304DED7534AADFE52E524867 /* Pods-Test-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		267B57D110547F38F9ECF3DBFF8B030A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TKSubmitTransition;
-			target = 88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */;
-			targetProxy = 9DDAA4CD25C048B6F28B8FD4AB3B049E /* PBXContainerItemProxy */;
-		};
-		89BB6AA783BCF08E3C37ECE6F1AFE280 /* PBXTargetDependency */ = {
+		543C505704FB5B50CD6F6EFFE82FD923 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GradientAnimator;
 			target = E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */;
-			targetProxy = AB48CBAA6BC3EC3D8061EADD09D78FEF /* PBXContainerItemProxy */;
+			targetProxy = 4818B98DC4D0615D8062FCE030622082 /* PBXContainerItemProxy */;
+		};
+		8E666C8FF1FB3D5F6FC5F2478819694D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
+			targetProxy = 63AB2CD1EE12D8389A2FB8632504B5F2 /* PBXContainerItemProxy */;
+		};
+		E12DFAE22A54197242EE4347FAE4167F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSubmitTransition;
+			target = 88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */;
+			targetProxy = 27E556C75C0BF9F6A16F8115A3FFF5FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0DFAF1EDB2B771572E292E123BB13628 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2213C4313017C0E010114DDCB8F37DF6 /* TKSubmitTransition.xcconfig */;
+			baseConfigurationReference = 1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -475,79 +586,7 @@
 			};
 			name = Release;
 		};
-		2D252B63CCD4C9EA633C0ED2DB6EFC49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E08097DFDE0FF675BB0E88F77AA5EB /* GradientAnimator.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GradientAnimator/GradientAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GradientAnimator/GradientAnimator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GradientAnimator/GradientAnimator.modulemap";
-				PRODUCT_MODULE_NAME = GradientAnimator;
-				PRODUCT_NAME = GradientAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		41FB38BAEF8296215910E443C32788F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2213C4313017C0E010114DDCB8F37DF6 /* TKSubmitTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TKSubmitTransition/TKSubmitTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TKSubmitTransition/TKSubmitTransition-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TKSubmitTransition/TKSubmitTransition.modulemap";
-				PRODUCT_MODULE_NAME = TKSubmitTransition;
-				PRODUCT_NAME = TKSubmitTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5AE9623C48043E41394E8AD6744ABA2B /* Release */ = {
+		1F3D8C61A2E469242C6405F8F1222ADF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
@@ -585,6 +624,152 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2D252B63CCD4C9EA633C0ED2DB6EFC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GradientAnimator/GradientAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientAnimator/GradientAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GradientAnimator/GradientAnimator.modulemap";
+				PRODUCT_MODULE_NAME = GradientAnimator;
+				PRODUCT_NAME = GradientAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41FB38BAEF8296215910E443C32788F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKSubmitTransition/TKSubmitTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSubmitTransition/TKSubmitTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TKSubmitTransition/TKSubmitTransition.modulemap";
+				PRODUCT_MODULE_NAME = TKSubmitTransition;
+				PRODUCT_NAME = TKSubmitTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A97557C8EC9FA4C28D9CF7DF697D7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73B6AF417685D17E70BAA58617394F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test/Pods-Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Test/Pods-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -652,7 +837,7 @@
 		};
 		9623DD818E07EC8ACCFBCD5B842AE67B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E08097DFDE0FF675BB0E88F77AA5EB /* GradientAnimator.xcconfig */;
+			baseConfigurationReference = AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -680,6 +865,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA4703F3BF54481C427815934F4D4D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -746,44 +966,6 @@
 			};
 			name = Release;
 		};
-		F233B733FF877039A937CF3BAB53C048 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test/Pods-Test-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test/Pods-Test.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -792,6 +974,15 @@
 			buildConfigurations = (
 				9623DD818E07EC8ACCFBCD5B842AE67B /* Debug */,
 				2D252B63CCD4C9EA633C0ED2DB6EFC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25360692F94D05B6B4344D370C7EC6AA /* Build configuration list for PBXNativeTarget "MarqueeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4703F3BF54481C427815934F4D4D70 /* Debug */,
+				6A97557C8EC9FA4C28D9CF7DF697D7F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -814,11 +1005,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69CA360511F1408E3BFC6BE80B6B3CC4 /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
+		DF0734E5AF5EE13DB81678E35DA887FE /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F233B733FF877039A937CF3BAB53C048 /* Debug */,
-				5AE9623C48043E41394E8AD6744ABA2B /* Release */,
+				73B6AF417685D17E70BAA58617394F09 /* Debug */,
+				1F3D8C61A2E469242C6405F8F1222ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
