@@ -1,8 +1,14 @@
 PODS:
+  - GradientAnimator (1.3.1)
   - TKSubmitTransition (3.1.1)
 
 DEPENDENCIES:
+  - GradientAnimator (~> 1.3.1)
   - TKSubmitTransition (from `https://github.com/entotsu/TKSubmitTransition.git`)
+
+SPEC REPOS:
+  trunk:
+    - GradientAnimator
 
 EXTERNAL SOURCES:
   TKSubmitTransition:
@@ -14,8 +20,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/entotsu/TKSubmitTransition.git
 
 SPEC CHECKSUMS:
+  GradientAnimator: 30c054568a68b5b03ae26586fdfca21036f6ad92
   TKSubmitTransition: 644b99291e301a03227fdb9f5709d81e09f6ad18
 
-PODFILE CHECKSUM: cf3a35ca0bc4ab328e2d49c7cc0f70f6402becb5
+PODFILE CHECKSUM: 2864e2ed573d2a390091ce308d13dd60aa57850d
 
 COCOAPODS: 1.8.4
