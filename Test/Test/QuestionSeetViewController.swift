@@ -19,11 +19,9 @@ class QuestionSeetViewController: UIViewController{
                                             _animationDuration: 3.0)
         self.view.insertSubview(gradientView, at: 0)
         gradientView.startAnimate()
-        
-        setupLabel(text: "")
     }
     
-    func setupLabel(text: String) {
+    func setupMessageLabel(text: String) {
         let messageLabel = MarqueeLabel()
         messageLabel.frame = CGRect(x: 20, y: 50, width: viewWidth - 40, height: 80)
         messageLabel.center.x = viewWidth / 2
@@ -35,6 +33,17 @@ class QuestionSeetViewController: UIViewController{
         messageLabel.animationDelay = 5.0
         messageLabel.speed = .duration(30)
         self.view.addSubview(messageLabel)
+    }
+    
+    func setupQuestionLabel(text: String) {
+        let questionLabel = UILabel()
+        questionLabel.frame = CGRect(x: 0, y: 0, width: viewWidth - 40, height: 80)
+        questionLabel.center.x = viewWidth / 2
+        questionLabel.center.y = viewHeight / 2
+        questionLabel.font = UIFont(name: "HelveticaNeue-Light", size: 20)
+        questionLabel.text = text
+        questionLabel.textColor = .white
+        self.view.addSubview(questionLabel)
     }
     
     func setupButton(image: UIImage, frame: CGRect, selector: Selector) {
