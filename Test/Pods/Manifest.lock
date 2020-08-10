@@ -1,0 +1,21 @@
+PODS:
+  - TKSubmitTransition (3.1.1)
+
+DEPENDENCIES:
+  - TKSubmitTransition (from `https://github.com/entotsu/TKSubmitTransition.git`)
+
+EXTERNAL SOURCES:
+  TKSubmitTransition:
+    :git: https://github.com/entotsu/TKSubmitTransition.git
+
+CHECKOUT OPTIONS:
+  TKSubmitTransition:
+    :commit: 1960d8e644c2dd3aa4585b6ed562f90ec8e13065
+    :git: https://github.com/entotsu/TKSubmitTransition.git
+
+SPEC CHECKSUMS:
+  TKSubmitTransition: 644b99291e301a03227fdb9f5709d81e09f6ad18
+
+PODFILE CHECKSUM: cf3a35ca0bc4ab328e2d49c7cc0f70f6402becb5
+
+COCOAPODS: 1.8.4
