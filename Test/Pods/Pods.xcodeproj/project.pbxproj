@@ -7,51 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F208A883C1A7E2D7530918879AAE07 /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2EAA77D383316657A52CAA20B447EE /* TKSubmitTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D29B80E3F0E0B6459DC7E33AF140CA /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFE5D4A91CC23EFAAC38A66366A495 /* WCLShineClickLayer.swift */; };
+		205729B4AF44304859D69C642726E51E /* WCLShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8F95E0E9E89570AFEC93784927C0B /* WCLShineParams.swift */; };
+		23D6EC0C91CBAA5E1FFBF2EB30982EBD /* WCLShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB04C62A984BA7725349230D5E2B26E0 /* WCLShineButton.bundle */; };
 		28FF2DD2E26316CA3F053BEA685AD6A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
 		325BA69A1881ED0F610714A630739449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		348AB06FA03843C7F684B227F944DD09 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A45DB682C05E759ADE56497F6E7FDB /* CGRectEx.swift */; };
-		3D6BF53074B78F65DFF41B38593703F1 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBD2683DB2572128E4E0102C9B0E6D /* SpinerLayer.swift */; };
-		46C03D7E9BAF96E0A3323EB9BBDADF8C /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = A384C3F4E454D461BBAF7275542DB745 /* project.pbxproj */; };
-		5A2C5BF114417B16B3D8260F8C7241F2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 7BD86126C5FCC5D858D63A8ADA8F556B /* contents.xcworkspacedata */; };
-		5D0591BE43A8249DBD3BE700539F3FF3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FDD17BD0763F077B6D8C01F41C2F6A /* FadeTransition.swift */; };
-		5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6695ABADD32458D91EE30D72809D0DB3 /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		606C057F6ABD31360C9DF359A70FC0D9 /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628FD99E718F9AD03A7DED6EE3BDC1D4 /* GradientAnimator-dummy.m */; };
-		7B63AD837478F740342440E6CD879425 /* GradientAnimator.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 426AFF97BA5D735875043207923F6225 /* GradientAnimator.podspec */; };
-		8316FEC4570F63DC64F650FFF2E9C985 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871D2C21154D236D49530AA71BF96A3 /* GradientAnimator.swift */; };
-		9278A2AFD4EE79BE58F83BB91CF0EAED /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AB320CBF6026C3219A04725E205F54 /* TransitionSubmitButton.swift */; };
+		348AB06FA03843C7F684B227F944DD09 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C50E23C48B1B24ACE5DC89AFAC1118 /* CGRectEx.swift */; };
+		3D6BF53074B78F65DFF41B38593703F1 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D002A1193EFC8A825E333B2C858431C8 /* SpinerLayer.swift */; };
+		42719F081F577389CD7F0303C99F8D94 /* WCLShineButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C9E79E5189AB84EB8B5F37DE83C8F1 /* WCLShineButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467CC5DA852ADAF47BC2236A2933FB88 /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46C03D7E9BAF96E0A3323EB9BBDADF8C /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = D4A90A064F41CD52E3D3B8AD14AE6782 /* project.pbxproj */; };
+		5A2C5BF114417B16B3D8260F8C7241F2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 2986341975495677B665FF886377D8B6 /* contents.xcworkspacedata */; };
+		5D0591BE43A8249DBD3BE700539F3FF3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE288DEEB7067752AB4965A6E0F957 /* FadeTransition.swift */; };
+		5FA08B5115A558E4C5FB3A7FD639067E /* GradientAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F68294EC232052888F9D2AD4D30BA38 /* GradientAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606C057F6ABD31360C9DF359A70FC0D9 /* GradientAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FEC1438C4D825D9A3D98623D42A6D0 /* GradientAnimator-dummy.m */; };
+		6945FE1B2E6E891DC09641774EA02A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		6B63A398C9377326BD64C20CC07CF08B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
+		7B63AD837478F740342440E6CD879425 /* GradientAnimator.podspec in Sources */ = {isa = PBXBuildFile; fileRef = C7FE00A110EF08BDD2BD2683166EA5E9 /* GradientAnimator.podspec */; };
+		7F91E347D1CDCC342F28CE918CCE71E7 /* WCLShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35635B1E6257D2658A5CE48EE5A2E2F /* WCLShineBundle.swift */; };
+		82FD19E901B1CA44502C6D11812982E1 /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB170E04BB9EA2DF458C61CE189E16B2 /* WCLShineAngleLayer.swift */; };
+		8316FEC4570F63DC64F650FFF2E9C985 /* GradientAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722890DF203E0E95CD12B419871F97BB /* GradientAnimator.swift */; };
+		8C8B6FA1A214E7C14E99C9AD49E59BA0 /* WCLShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A0822BA40BB9B12F06520A76BC2716 /* WCLShineButton.swift */; };
+		9278A2AFD4EE79BE58F83BB91CF0EAED /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDD915321769B089F855AF4FCC1839 /* TransitionSubmitButton.swift */; };
 		965CFE2257F25BA2AB1988700C0DC7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		9C6D21F7B07FE439710EF438D94F6D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		A0F7ECC2EC66BBB2360D674C7B1DA81C /* Pods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADE8E38AE2FC314562F857E3D97467C4 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABC5B0585AF5848AF14E1C7580BA5 /* MarqueeLabel-dummy.m */; };
-		AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028FC52089F6A342DD498125FF89277F /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B11AA7EF304DED7534AADFE52E524867 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */; };
-		BD503BE4798FC30D23AC747146D39FE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F21C45906CB15FAA655F91362BF768 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8BB2EAEB3F03D521DC374327ADD7FE7 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB85197BCD43363BBF4EF9AA6C6E7324 /* MarqueeLabel.swift */; };
-		CA7CE5E45BE7388DEACCE2158E96E59C /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A80B66C326A55DFD6C68118F733E0E /* TimerEx.swift */; };
-		D7976954BF5A487D4A56152DB9D840FA /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F987DC76CCB768391CF6FCC829FA98 /* TKSubmitTransition-dummy.m */; };
-		D81B5A18824ED0CE1BB89B0BA01C7F43 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = B51285B623D93D313C54C97FE2436BC9 /* Podfile */; };
+		9AECEA9E14DAB08AE3D07D643D4AA6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */; };
+		ADE8E38AE2FC314562F857E3D97467C4 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB5F1888453C66DEF6C80B93D649A7C /* MarqueeLabel-dummy.m */; };
+		AE1F060DBB5D8F583123950D08CBA26D /* GradientAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7071B635D06AEE73B8901AF0F0B9AAD8 /* GradientAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD503BE4798FC30D23AC747146D39FE2 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 786CF1AFA8533B60E75F57A47C38E237 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BB2EAEB3F03D521DC374327ADD7FE7 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A6147254850DF2969EB7EE8334601 /* MarqueeLabel.swift */; };
+		CA7CE5E45BE7388DEACCE2158E96E59C /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2E086D3286189928842FDDA2A23C10 /* TimerEx.swift */; };
+		D7976954BF5A487D4A56152DB9D840FA /* TKSubmitTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2DF043B151D7672C6101202262602 /* TKSubmitTransition-dummy.m */; };
+		D7D702E98AC1E133E09F5B6C2A54A6CF /* WCLShineButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3158114BF96209EE9D2423BA4F43846 /* WCLShineButton-dummy.m */; };
+		D81B5A18824ED0CE1BB89B0BA01C7F43 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 659ABAB6C5029E72D1417FA086507DEA /* Podfile */; };
 		E74AE53C7A1A5E8476D876FCEE4DA168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */; };
-		F37B474F60E857441F2B70C84648BD27 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = 10267A367B92637CF35472036F2CF0B0 /* IDEWorkspaceChecks.plist */; };
+		EC3E9858A70131522B060F0016FA4374 /* WCLShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0574227FA2246964C7D2DE560B92870 /* WCLShineLayer.swift */; };
+		F28D9C5A364064B045BE2E4901CEC9C3 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */; };
+		F37B474F60E857441F2B70C84648BD27 /* IDEWorkspaceChecks.plist in Sources */ = {isa = PBXBuildFile; fileRef = 0F25643585639DABAA1D1FB3CECA464F /* IDEWorkspaceChecks.plist */; };
 		F9804CC0F10C7CCDE5A8ECC0FD4A5190 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27E556C75C0BF9F6A16F8115A3FFF5FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88457EBD8621B8664A94CAB3710C13EB;
-			remoteInfo = TKSubmitTransition;
-		};
-		4818B98DC4D0615D8062FCE030622082 /* PBXContainerItemProxy */ = {
+		238F4CF489BFA2DA11984B5AF327C1AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E68819B18A89CCCC7E44BFE8750CD7C6;
 			remoteInfo = GradientAnimator;
 		};
-		63AB2CD1EE12D8389A2FB8632504B5F2 /* PBXContainerItemProxy */ = {
+		2C292B45C9BAEA6C23973A2FF9FDBF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83993C8F5EFBE2ED74A821934C595E9;
+			remoteInfo = WCLShineButton;
+		};
+		3AE17A63F78A0200AA2AB1285FCEDACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88457EBD8621B8664A94CAB3710C13EB;
+			remoteInfo = TKSubmitTransition;
+		};
+		7CC8F7350702D7F3E3A958DC4BBD71D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -61,57 +79,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028FC52089F6A342DD498125FF89277F /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
-		10267A367B92637CF35472036F2CF0B0 /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = IDEWorkspaceChecks.plist; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
-		11F21C45906CB15FAA655F91362BF768 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
-		1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
+		03CDD915321769B089F855AF4FCC1839 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		098814983BC053555A485F9F0FE788DC /* WCLShineButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCLShineButton.framework; path = WCLShineButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F25643585639DABAA1D1FB3CECA464F /* IDEWorkspaceChecks.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = IDEWorkspaceChecks.plist; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist; sourceTree = "<group>"; };
 		20D4D5591C93D31554BAB819161AB098 /* Pods-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
 		268A5D7C9A934E87BE8F38BAA0AA9A3D /* Pods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test.modulemap"; sourceTree = "<group>"; };
-		26ED1FDDA84290577B094F85A5B77FBD /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
-		2871D2C21154D236D49530AA71BF96A3 /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
+		2908621AD0A7AEA166B84CCB7723A3F3 /* WCLShineButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCLShineButton-prefix.pch"; sourceTree = "<group>"; };
+		2986341975495677B665FF886377D8B6 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
 		2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
-		2CA80B85C57E7F98CBFDB04BD846A521 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
-		32A89774F4A4B54ECCC9280F44629DF9 /* TKSubmitTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKSubmitTransition-Info.plist"; sourceTree = "<group>"; };
-		426AFF97BA5D735875043207923F6225 /* GradientAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GradientAnimator.podspec; path = GradientAnimator/GradientAnimator.podspec; sourceTree = "<group>"; };
+		2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
+		2F68294EC232052888F9D2AD4D30BA38 /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
+		30C9E79E5189AB84EB8B5F37DE83C8F1 /* WCLShineButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCLShineButton-umbrella.h"; sourceTree = "<group>"; };
+		38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCLShineButton.xcconfig; sourceTree = "<group>"; };
 		43CF824FE4ADC368F7A98ADB5EDF7C19 /* Pods-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-frameworks.sh"; sourceTree = "<group>"; };
-		43F987DC76CCB768391CF6FCC829FA98 /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
 		49F545AB76C9016ECAD7D83A1129E704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		56920514E8D4F15418F4761FDBC247BA /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
+		4DFE288DEEB7067752AB4965A6E0F957 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
+		548EE8DC24DD727E7C03BC494762AD2D /* GradientAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-prefix.pch"; sourceTree = "<group>"; };
+		556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
 		5C5A53DB14CF17DFA8DBFCECDB4970BD /* Pods-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-dummy.m"; sourceTree = "<group>"; };
-		5C624624A297C128240141FB4F23EC61 /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
-		5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
-		628FD99E718F9AD03A7DED6EE3BDC1D4 /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
-		65A45DB682C05E759ADE56497F6E7FDB /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
-		6695ABADD32458D91EE30D72809D0DB3 /* GradientAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientAnimator.h; path = GradientAnimator/GradientAnimator/GradientAnimator.h; sourceTree = "<group>"; };
+		659ABAB6C5029E72D1417FA086507DEA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = GradientAnimator/Podfile; sourceTree = "<group>"; };
+		65B8F95E0E9E89570AFEC93784927C0B /* WCLShineParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineParams.swift; path = WCLShineButton/WCLShineParams.swift; sourceTree = "<group>"; };
 		694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		6B9EE3B4930621E10589D86A6D6BF636 /* Pods-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test.framework; path = "Pods-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72A80B66C326A55DFD6C68118F733E0E /* TimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerEx.swift; path = SubmitTransition/Classes/TimerEx.swift; sourceTree = "<group>"; };
-		77F208A883C1A7E2D7530918879AAE07 /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
-		7BD86126C5FCC5D858D63A8ADA8F556B /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = GradientAnimator/GradientAnimator.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
-		7DBABC5B0585AF5848AF14E1C7580BA5 /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
-		84CBD2683DB2572128E4E0102C9B0E6D /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
+		7071B635D06AEE73B8901AF0F0B9AAD8 /* GradientAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientAnimator-umbrella.h"; sourceTree = "<group>"; };
+		722890DF203E0E95CD12B419871F97BB /* GradientAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientAnimator.swift; path = GradientAnimator/GradientAnimator/GradientAnimator.swift; sourceTree = "<group>"; };
+		786CF1AFA8533B60E75F57A47C38E237 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		786F7EBA0B9FA626796215FBC9FBF382 /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
+		839A6147254850DF2969EB7EE8334601 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
 		89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKSubmitTransition.framework; path = TKSubmitTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA6227CEA1DB4E9ABA99BF3013A280E /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
 		950B64BEB39CC506B65115EE95302D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95CFE5D4A91CC23EFAAC38A66366A495 /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineClickLayer.swift; path = WCLShineButton/WCLShineClickLayer.swift; sourceTree = "<group>"; };
+		96D4D2059C36277B1DE878C5EBCDDA1B /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
+		9751191C1C7D44A4E2A06A200DA2DA61 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F2A87A3E918CDCCFDB78FCF079181EB /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
-		A384C3F4E454D461BBAF7275542DB745 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = GradientAnimator/GradientAnimator.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
-		AB85197BCD43363BBF4EF9AA6C6E7324 /* MarqueeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarqueeLabel.swift; path = Sources/MarqueeLabel.swift; sourceTree = "<group>"; };
-		AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientAnimator.xcconfig; sourceTree = "<group>"; };
-		B51285B623D93D313C54C97FE2436BC9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = GradientAnimator/Podfile; sourceTree = "<group>"; };
+		A3158114BF96209EE9D2423BA4F43846 /* WCLShineButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCLShineButton-dummy.m"; sourceTree = "<group>"; };
+		A7A0822BA40BB9B12F06520A76BC2716 /* WCLShineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineButton.swift; path = WCLShineButton/WCLShineButton.swift; sourceTree = "<group>"; };
+		AA2EAA77D383316657A52CAA20B447EE /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
+		AACD0D088ECD2C1EF11B907C01BE0ECE /* WCLShineButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCLShineButton-Info.plist"; sourceTree = "<group>"; };
+		BB170E04BB9EA2DF458C61CE189E16B2 /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineAngleLayer.swift; path = WCLShineButton/WCLShineAngleLayer.swift; sourceTree = "<group>"; };
+		BC2E086D3286189928842FDDA2A23C10 /* TimerEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerEx.swift; path = SubmitTransition/Classes/TimerEx.swift; sourceTree = "<group>"; };
+		BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		BFEF06D353AA8527C7024F1896972E08 /* TKSubmitTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKSubmitTransition-Info.plist"; sourceTree = "<group>"; };
+		C15694FB7FD45435520683C5E23F0E59 /* GradientAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GradientAnimator.modulemap; sourceTree = "<group>"; };
 		C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GradientAnimator.framework; path = GradientAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FE00A110EF08BDD2BD2683166EA5E9 /* GradientAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GradientAnimator.podspec; path = GradientAnimator/GradientAnimator.podspec; sourceTree = "<group>"; };
+		C9C50E23C48B1B24ACE5DC89AFAC1118 /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
 		CBCD5169B524477639A9A41855A47F99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D011256DB909D2AE96A367F793EF0DAD /* GradientAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GradientAnimator-Info.plist"; sourceTree = "<group>"; };
+		D002A1193EFC8A825E333B2C858431C8 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
 		D1DF52A3ACBE3CC23554FF3F2155E1CE /* Pods-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-umbrella.h"; sourceTree = "<group>"; };
+		D35635B1E6257D2658A5CE48EE5A2E2F /* WCLShineBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineBundle.swift; path = WCLShineButton/WCLShineBundle.swift; sourceTree = "<group>"; };
+		D4A90A064F41CD52E3D3B8AD14AE6782 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = GradientAnimator/GradientAnimator.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		DB04C62A984BA7725349230D5E2B26E0 /* WCLShineButton.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WCLShineButton.bundle; path = WCLShineButton/WCLShineButton.bundle; sourceTree = "<group>"; };
 		DC29F6173C1367F58B6FB6E9972D0F15 /* Pods-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Info.plist"; sourceTree = "<group>"; };
-		E4073B93CED18D7C1E6C8AAC47586107 /* TKSubmitTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-prefix.pch"; sourceTree = "<group>"; };
-		E6FDD17BD0763F077B6D8C01F41C2F6A /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = SubmitTransition/Classes/FadeTransition.swift; sourceTree = "<group>"; };
-		F1AB320CBF6026C3219A04725E205F54 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionSubmitButton.swift; path = SubmitTransition/Classes/TransitionSubmitButton.swift; sourceTree = "<group>"; };
-		F58BB32B7A93C5A71847272AC840FC23 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
+		DEB5F1888453C66DEF6C80B93D649A7C /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		E96FA8F9DE61AE3BB550BD9D0D5D103C /* WCLShineButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCLShineButton.modulemap; sourceTree = "<group>"; };
+		F0574227FA2246964C7D2DE560B92870 /* WCLShineLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCLShineLayer.swift; path = WCLShineButton/WCLShineLayer.swift; sourceTree = "<group>"; };
+		F26A455771ECB8289817F408F0CDA6B8 /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
+		F4B2DF043B151D7672C6101202262602 /* TKSubmitTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSubmitTransition-dummy.m"; sourceTree = "<group>"; };
+		F8FEC1438C4D825D9A3D98623D42A6D0 /* GradientAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientAnimator-dummy.m"; sourceTree = "<group>"; };
+		FF077189760770CAFEA234FA1FD8C214 /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		288212C53407592DACBF77469C43489F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63A398C9377326BD64C20CC07CF08B /* Foundation.framework in Frameworks */,
+				9AECEA9E14DAB08AE3D07D643D4AA6F1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4274CA0E731AECC68C24808C7E6703AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,11 +179,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2614CD421187D2D3F93B171984A02F2 /* Frameworks */ = {
+		F293EA871A447781B1A46130493F3074 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6D21F7B07FE439710EF438D94F6D80 /* Foundation.framework in Frameworks */,
+				6945FE1B2E6E891DC09641774EA02A79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,49 +198,100 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		09582EB20A6A08ABAB7CFF618EFD007D /* Pods */ = {
+		157DABBE4F90554F0E437B649F79FF60 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E447F2C688B2B8510A9356CA6A71F1A /* GradientAnimator */,
-				3210C4F67391F156CFF13075D28AF193 /* MarqueeLabel */,
-				96FA7761C023F169AE2F4F82E747EEFB /* TKSubmitTransition */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0DC1208A1BFD7D2EDCA7635E61C44F50 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */,
-				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */,
-				6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */,
-				89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3210C4F67391F156CFF13075D28AF193 /* MarqueeLabel */ = {
-			isa = PBXGroup;
-			children = (
-				AB85197BCD43363BBF4EF9AA6C6E7324 /* MarqueeLabel.swift */,
-				AC406799EC6F2A5668A268070703220D /* Support Files */,
-			);
-			name = MarqueeLabel;
-			path = MarqueeLabel;
-			sourceTree = "<group>";
-		};
-		3401BC1FC5053F7EAD72B7D70FAF6780 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F58BB32B7A93C5A71847272AC840FC23 /* TKSubmitTransition.modulemap */,
-				1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */,
-				43F987DC76CCB768391CF6FCC829FA98 /* TKSubmitTransition-dummy.m */,
-				32A89774F4A4B54ECCC9280F44629DF9 /* TKSubmitTransition-Info.plist */,
-				E4073B93CED18D7C1E6C8AAC47586107 /* TKSubmitTransition-prefix.pch */,
-				77F208A883C1A7E2D7530918879AAE07 /* TKSubmitTransition-umbrella.h */,
+				E96FA8F9DE61AE3BB550BD9D0D5D103C /* WCLShineButton.modulemap */,
+				38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */,
+				A3158114BF96209EE9D2423BA4F43846 /* WCLShineButton-dummy.m */,
+				AACD0D088ECD2C1EF11B907C01BE0ECE /* WCLShineButton-Info.plist */,
+				2908621AD0A7AEA166B84CCB7723A3F3 /* WCLShineButton-prefix.pch */,
+				30C9E79E5189AB84EB8B5F37DE83C8F1 /* WCLShineButton-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TKSubmitTransition";
+			path = "../Target Support Files/WCLShineButton";
+			sourceTree = "<group>";
+		};
+		2655E322EFF33745DD7D752DC1C06BE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9751191C1C7D44A4E2A06A200DA2DA61 /* MarqueeLabel.modulemap */,
+				BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */,
+				DEB5F1888453C66DEF6C80B93D649A7C /* MarqueeLabel-dummy.m */,
+				96D4D2059C36277B1DE878C5EBCDDA1B /* MarqueeLabel-Info.plist */,
+				FF077189760770CAFEA234FA1FD8C214 /* MarqueeLabel-prefix.pch */,
+				786CF1AFA8533B60E75F57A47C38E237 /* MarqueeLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+		31F37DC3694A91344688A16824D625A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C15694FB7FD45435520683C5E23F0E59 /* GradientAnimator.modulemap */,
+				556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */,
+				F8FEC1438C4D825D9A3D98623D42A6D0 /* GradientAnimator-dummy.m */,
+				786F7EBA0B9FA626796215FBC9FBF382 /* GradientAnimator-Info.plist */,
+				548EE8DC24DD727E7C03BC494762AD2D /* GradientAnimator-prefix.pch */,
+				7071B635D06AEE73B8901AF0F0B9AAD8 /* GradientAnimator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GradientAnimator";
+			sourceTree = "<group>";
+		};
+		44DD4062C7E16257BAD5AB540A581C01 /* WCLShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				BB170E04BB9EA2DF458C61CE189E16B2 /* WCLShineAngleLayer.swift */,
+				D35635B1E6257D2658A5CE48EE5A2E2F /* WCLShineBundle.swift */,
+				A7A0822BA40BB9B12F06520A76BC2716 /* WCLShineButton.swift */,
+				95CFE5D4A91CC23EFAAC38A66366A495 /* WCLShineClickLayer.swift */,
+				F0574227FA2246964C7D2DE560B92870 /* WCLShineLayer.swift */,
+				65B8F95E0E9E89570AFEC93784927C0B /* WCLShineParams.swift */,
+				4B5F9250FC66BE4399ACEAB3BE73D622 /* Resources */,
+				157DABBE4F90554F0E437B649F79FF60 /* Support Files */,
+			);
+			name = WCLShineButton;
+			path = WCLShineButton;
+			sourceTree = "<group>";
+		};
+		4B5F9250FC66BE4399ACEAB3BE73D622 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB04C62A984BA7725349230D5E2B26E0 /* WCLShineButton.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CFBEA7A82458298C3726A894300B0DA /* GradientAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				2986341975495677B665FF886377D8B6 /* contents.xcworkspacedata */,
+				2F68294EC232052888F9D2AD4D30BA38 /* GradientAnimator.h */,
+				C7FE00A110EF08BDD2BD2683166EA5E9 /* GradientAnimator.podspec */,
+				722890DF203E0E95CD12B419871F97BB /* GradientAnimator.swift */,
+				0F25643585639DABAA1D1FB3CECA464F /* IDEWorkspaceChecks.plist */,
+				659ABAB6C5029E72D1417FA086507DEA /* Podfile */,
+				D4A90A064F41CD52E3D3B8AD14AE6782 /* project.pbxproj */,
+				31F37DC3694A91344688A16824D625A1 /* Support Files */,
+			);
+			name = GradientAnimator;
+			path = GradientAnimator;
+			sourceTree = "<group>";
+		};
+		5E50BA2728C49CD20A67C1B444569189 /* TKSubmitTransition */ = {
+			isa = PBXGroup;
+			children = (
+				C9C50E23C48B1B24ACE5DC89AFAC1118 /* CGRectEx.swift */,
+				4DFE288DEEB7067752AB4965A6E0F957 /* FadeTransition.swift */,
+				D002A1193EFC8A825E333B2C858431C8 /* SpinerLayer.swift */,
+				BC2E086D3286189928842FDDA2A23C10 /* TimerEx.swift */,
+				03CDD915321769B089F855AF4FCC1839 /* TransitionSubmitButton.swift */,
+				F78AB502F0BF9FF23BB4DEFAC84A3D72 /* Support Files */,
+			);
+			name = TKSubmitTransition;
+			path = TKSubmitTransition;
 			sourceTree = "<group>";
 		};
 		5FBA5CA3CAE4D2178AFFC55A5CD96EC8 /* Pods-Test */ = {
@@ -219,48 +311,25 @@
 			path = "Target Support Files/Pods-Test";
 			sourceTree = "<group>";
 		};
-		8E447F2C688B2B8510A9356CA6A71F1A /* GradientAnimator */ = {
+		613801EDAEDB40DF16844E3DF5D2EAB2 /* MarqueeLabel */ = {
 			isa = PBXGroup;
 			children = (
-				7BD86126C5FCC5D858D63A8ADA8F556B /* contents.xcworkspacedata */,
-				6695ABADD32458D91EE30D72809D0DB3 /* GradientAnimator.h */,
-				426AFF97BA5D735875043207923F6225 /* GradientAnimator.podspec */,
-				2871D2C21154D236D49530AA71BF96A3 /* GradientAnimator.swift */,
-				10267A367B92637CF35472036F2CF0B0 /* IDEWorkspaceChecks.plist */,
-				B51285B623D93D313C54C97FE2436BC9 /* Podfile */,
-				A384C3F4E454D461BBAF7275542DB745 /* project.pbxproj */,
-				9478D36D0215D475F32CD41E0D34216D /* Support Files */,
+				839A6147254850DF2969EB7EE8334601 /* MarqueeLabel.swift */,
+				2655E322EFF33745DD7D752DC1C06BE7 /* Support Files */,
 			);
-			name = GradientAnimator;
-			path = GradientAnimator;
+			name = MarqueeLabel;
+			path = MarqueeLabel;
 			sourceTree = "<group>";
 		};
-		9478D36D0215D475F32CD41E0D34216D /* Support Files */ = {
+		838262664BE62C5D91DBEFE3AA81FAF2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C624624A297C128240141FB4F23EC61 /* GradientAnimator.modulemap */,
-				AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */,
-				628FD99E718F9AD03A7DED6EE3BDC1D4 /* GradientAnimator-dummy.m */,
-				D011256DB909D2AE96A367F793EF0DAD /* GradientAnimator-Info.plist */,
-				26ED1FDDA84290577B094F85A5B77FBD /* GradientAnimator-prefix.pch */,
-				028FC52089F6A342DD498125FF89277F /* GradientAnimator-umbrella.h */,
+				5CFBEA7A82458298C3726A894300B0DA /* GradientAnimator */,
+				613801EDAEDB40DF16844E3DF5D2EAB2 /* MarqueeLabel */,
+				5E50BA2728C49CD20A67C1B444569189 /* TKSubmitTransition */,
+				44DD4062C7E16257BAD5AB540A581C01 /* WCLShineButton */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GradientAnimator";
-			sourceTree = "<group>";
-		};
-		96FA7761C023F169AE2F4F82E747EEFB /* TKSubmitTransition */ = {
-			isa = PBXGroup;
-			children = (
-				65A45DB682C05E759ADE56497F6E7FDB /* CGRectEx.swift */,
-				E6FDD17BD0763F077B6D8C01F41C2F6A /* FadeTransition.swift */,
-				84CBD2683DB2572128E4E0102C9B0E6D /* SpinerLayer.swift */,
-				72A80B66C326A55DFD6C68118F733E0E /* TimerEx.swift */,
-				F1AB320CBF6026C3219A04725E205F54 /* TransitionSubmitButton.swift */,
-				3401BC1FC5053F7EAD72B7D70FAF6780 /* Support Files */,
-			);
-			name = TKSubmitTransition;
-			path = TKSubmitTransition;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		99D4E3FE3065BAD11F04F08022A73A4D /* Targets Support Files */ = {
@@ -269,20 +338,6 @@
 				5FBA5CA3CAE4D2178AFFC55A5CD96EC8 /* Pods-Test */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AC406799EC6F2A5668A268070703220D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2CA80B85C57E7F98CBFDB04BD846A521 /* MarqueeLabel.modulemap */,
-				5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */,
-				7DBABC5B0585AF5848AF14E1C7580BA5 /* MarqueeLabel-dummy.m */,
-				56920514E8D4F15418F4761FDBC247BA /* MarqueeLabel-Info.plist */,
-				9F2A87A3E918CDCCFDB78FCF079181EB /* MarqueeLabel-prefix.pch */,
-				11F21C45906CB15FAA655F91362BF768 /* MarqueeLabel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MarqueeLabel";
 			sourceTree = "<group>";
 		};
 		C18BABFF9523A33465B5A91496FF0C3D /* iOS */ = {
@@ -300,15 +355,49 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				09582EB20A6A08ABAB7CFF618EFD007D /* Pods */,
-				0DC1208A1BFD7D2EDCA7635E61C44F50 /* Products */,
+				838262664BE62C5D91DBEFE3AA81FAF2 /* Pods */,
+				F7C6CF6919C7C771D30539EABBCB5371 /* Products */,
 				99D4E3FE3065BAD11F04F08022A73A4D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		F78AB502F0BF9FF23BB4DEFAC84A3D72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26A455771ECB8289817F408F0CDA6B8 /* TKSubmitTransition.modulemap */,
+				2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */,
+				F4B2DF043B151D7672C6101202262602 /* TKSubmitTransition-dummy.m */,
+				BFEF06D353AA8527C7024F1896972E08 /* TKSubmitTransition-Info.plist */,
+				8AA6227CEA1DB4E9ABA99BF3013A280E /* TKSubmitTransition-prefix.pch */,
+				AA2EAA77D383316657A52CAA20B447EE /* TKSubmitTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKSubmitTransition";
+			sourceTree = "<group>";
+		};
+		F7C6CF6919C7C771D30539EABBCB5371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4B677D0AB65E45BEF7C1DE905DAC9 /* GradientAnimator.framework */,
+				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */,
+				6E9674311C9DC5180905474618BB10C8 /* Pods_Test.framework */,
+				89006B5DA6AF042CBDA47DC9EF57E1F4 /* TKSubmitTransition.framework */,
+				098814983BC053555A485F9F0FE788DC /* WCLShineButton.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2633F1BCD12BBEB4C9FBA7BF64BBF89E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467CC5DA852ADAF47BC2236A2933FB88 /* Pods-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3076D331E9F18C1C52553382CDD01DA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,19 +406,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EFA5C3FCD75E1B42BEC6AF3D0157EF4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0F7ECC2EC66BBB2360D674C7B1DA81C /* Pods-Test-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9693B765A8516963EDF9A16B921B42E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D267AE00A27D7AE1AFC0C45DEAF54E0 /* TKSubmitTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12B00691E429876C85CDC72D13AB9B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42719F081F577389CD7F0303C99F8D94 /* WCLShineButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,19 +454,20 @@
 		};
 		A342EF7BEBD414FDBB3F0C4424819DF1 /* Pods-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF0734E5AF5EE13DB81678E35DA887FE /* Build configuration list for PBXNativeTarget "Pods-Test" */;
+			buildConfigurationList = 429597E6F2F0E1AD883ED2E4C234CA25 /* Build configuration list for PBXNativeTarget "Pods-Test" */;
 			buildPhases = (
-				4EFA5C3FCD75E1B42BEC6AF3D0157EF4 /* Headers */,
-				CAF46A518329F25911F6312BBCE6BFAE /* Sources */,
-				E2614CD421187D2D3F93B171984A02F2 /* Frameworks */,
-				28D0FB72D3E2DB0F7CA41A7200102DCC /* Resources */,
+				2633F1BCD12BBEB4C9FBA7BF64BBF89E /* Headers */,
+				F3ED8DE6A57640589EF91D0AE57A4800 /* Sources */,
+				F293EA871A447781B1A46130493F3074 /* Frameworks */,
+				15BBAB4EDD795BFD75542A00C352664B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				543C505704FB5B50CD6F6EFFE82FD923 /* PBXTargetDependency */,
-				8E666C8FF1FB3D5F6FC5F2478819694D /* PBXTargetDependency */,
-				E12DFAE22A54197242EE4347FAE4167F /* PBXTargetDependency */,
+				EA0605A9C0F9A9AF7AB1ABC5C3C18B7A /* PBXTargetDependency */,
+				A1E30804084F703D83A45F992290503E /* PBXTargetDependency */,
+				39809B7AF5A744250A03B81CCA463170 /* PBXTargetDependency */,
+				01B3A8BC9865CB464A4A0FFA3F928F9A /* PBXTargetDependency */,
 			);
 			name = "Pods-Test";
 			productName = "Pods-Test";
@@ -400,6 +490,24 @@
 			name = MarqueeLabel;
 			productName = MarqueeLabel;
 			productReference = CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C83993C8F5EFBE2ED74A821934C595E9 /* WCLShineButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92386CD5881A0194179FDDDFEE3A281A /* Build configuration list for PBXNativeTarget "WCLShineButton" */;
+			buildPhases = (
+				B12B00691E429876C85CDC72D13AB9B9 /* Headers */,
+				71C169BD0B18F19E3AC32E8A72E4432D /* Sources */,
+				288212C53407592DACBF77469C43489F /* Frameworks */,
+				DA151D6E0776B08AD64C78E1E0C056B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCLShineButton;
+			productName = WCLShineButton;
+			productReference = 098814983BC053555A485F9F0FE788DC /* WCLShineButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */ = {
@@ -438,7 +546,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0DC1208A1BFD7D2EDCA7635E61C44F50 /* Products */;
+			productRefGroup = F7C6CF6919C7C771D30539EABBCB5371 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -446,12 +554,13 @@
 				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
 				A342EF7BEBD414FDBB3F0C4424819DF1 /* Pods-Test */,
 				88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */,
+				C83993C8F5EFBE2ED74A821934C595E9 /* WCLShineButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28D0FB72D3E2DB0F7CA41A7200102DCC /* Resources */ = {
+		15BBAB4EDD795BFD75542A00C352664B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,6 +585,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA151D6E0776B08AD64C78E1E0C056B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D6EC0C91CBAA5E1FFBF2EB30982EBD /* WCLShineButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +626,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71C169BD0B18F19E3AC32E8A72E4432D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FD19E901B1CA44502C6D11812982E1 /* WCLShineAngleLayer.swift in Sources */,
+				7F91E347D1CDCC342F28CE918CCE71E7 /* WCLShineBundle.swift in Sources */,
+				D7D702E98AC1E133E09F5B6C2A54A6CF /* WCLShineButton-dummy.m in Sources */,
+				8C8B6FA1A214E7C14E99C9AD49E59BA0 /* WCLShineButton.swift in Sources */,
+				17D29B80E3F0E0B6459DC7E33AF140CA /* WCLShineClickLayer.swift in Sources */,
+				EC3E9858A70131522B060F0016FA4374 /* WCLShineLayer.swift in Sources */,
+				205729B4AF44304859D69C642726E51E /* WCLShineParams.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FEEA90DA6EE49996DA2C10407C82C74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,41 +649,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAF46A518329F25911F6312BBCE6BFAE /* Sources */ = {
+		F3ED8DE6A57640589EF91D0AE57A4800 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11AA7EF304DED7534AADFE52E524867 /* Pods-Test-dummy.m in Sources */,
+				F28D9C5A364064B045BE2E4901CEC9C3 /* Pods-Test-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		543C505704FB5B50CD6F6EFFE82FD923 /* PBXTargetDependency */ = {
+		01B3A8BC9865CB464A4A0FFA3F928F9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GradientAnimator;
-			target = E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */;
-			targetProxy = 4818B98DC4D0615D8062FCE030622082 /* PBXContainerItemProxy */;
+			name = WCLShineButton;
+			target = C83993C8F5EFBE2ED74A821934C595E9 /* WCLShineButton */;
+			targetProxy = 2C292B45C9BAEA6C23973A2FF9FDBF62 /* PBXContainerItemProxy */;
 		};
-		8E666C8FF1FB3D5F6FC5F2478819694D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MarqueeLabel;
-			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
-			targetProxy = 63AB2CD1EE12D8389A2FB8632504B5F2 /* PBXContainerItemProxy */;
-		};
-		E12DFAE22A54197242EE4347FAE4167F /* PBXTargetDependency */ = {
+		39809B7AF5A744250A03B81CCA463170 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TKSubmitTransition;
 			target = 88457EBD8621B8664A94CAB3710C13EB /* TKSubmitTransition */;
-			targetProxy = 27E556C75C0BF9F6A16F8115A3FFF5FB /* PBXContainerItemProxy */;
+			targetProxy = 3AE17A63F78A0200AA2AB1285FCEDACC /* PBXContainerItemProxy */;
+		};
+		A1E30804084F703D83A45F992290503E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
+			targetProxy = 7CC8F7350702D7F3E3A958DC4BBD71D5 /* PBXContainerItemProxy */;
+		};
+		EA0605A9C0F9A9AF7AB1ABC5C3C18B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientAnimator;
+			target = E68819B18A89CCCC7E44BFE8750CD7C6 /* GradientAnimator */;
+			targetProxy = 238F4CF489BFA2DA11984B5AF327C1AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0DFAF1EDB2B771572E292E123BB13628 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */;
+			baseConfigurationReference = 2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -586,7 +723,42 @@
 			};
 			name = Release;
 		};
-		1F3D8C61A2E469242C6405F8F1222ADF /* Release */ = {
+		1866FC58F9555D87E5D7507F0A83A434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCLShineButton/WCLShineButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCLShineButton/WCLShineButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WCLShineButton/WCLShineButton.modulemap";
+				PRODUCT_MODULE_NAME = WCLShineButton;
+				PRODUCT_NAME = WCLShineButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F9D354FF821CF7A44E8E0BE84D08136 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 694E2ECCF4ABA053BD07F507B958E183 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
@@ -627,7 +799,7 @@
 		};
 		2D252B63CCD4C9EA633C0ED2DB6EFC49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */;
+			baseConfigurationReference = 556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -664,7 +836,7 @@
 		};
 		41FB38BAEF8296215910E443C32788F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CC378725B9A7701BB259AAD29E29554 /* TKSubmitTransition.xcconfig */;
+			baseConfigurationReference = 2E27EC91B96811177264B42F13B4F34C /* TKSubmitTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -699,7 +871,7 @@
 		};
 		6A97557C8EC9FA4C28D9CF7DF697D7F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */;
+			baseConfigurationReference = BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -733,7 +905,7 @@
 			};
 			name = Release;
 		};
-		73B6AF417685D17E70BAA58617394F09 /* Debug */ = {
+		7F15FD7A6CB3C27138A8FD0B9E6B9C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B7B182C022596477B3A065B7C9FCEB5 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
@@ -837,7 +1009,7 @@
 		};
 		9623DD818E07EC8ACCFBCD5B842AE67B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEBE608EE1015D7DC197E019EB1D1117 /* GradientAnimator.xcconfig */;
+			baseConfigurationReference = 556474D2EB40286610745998A6259C5D /* GradientAnimator.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -871,9 +1043,45 @@
 			};
 			name = Debug;
 		};
+		BCA67D9903B2E948C131C08F3FD16729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F897646B873393237241DC39D92C7C /* WCLShineButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCLShineButton/WCLShineButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCLShineButton/WCLShineButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WCLShineButton/WCLShineButton.modulemap";
+				PRODUCT_MODULE_NAME = WCLShineButton;
+				PRODUCT_NAME = WCLShineButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA4703F3BF54481C427815934F4D4D70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D65678424DA566663BC3FE860A6B93C /* MarqueeLabel.xcconfig */;
+			baseConfigurationReference = BDC40185530A95A0BE7EE51FA7974A82 /* MarqueeLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -987,6 +1195,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		429597E6F2F0E1AD883ED2E4C234CA25 /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F15FD7A6CB3C27138A8FD0B9E6B9C0D /* Debug */,
+				1F9D354FF821CF7A44E8E0BE84D08136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1005,11 +1222,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF0734E5AF5EE13DB81678E35DA887FE /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
+		92386CD5881A0194179FDDDFEE3A281A /* Build configuration list for PBXNativeTarget "WCLShineButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73B6AF417685D17E70BAA58617394F09 /* Debug */,
-				1F3D8C61A2E469242C6405F8F1222ADF /* Release */,
+				1866FC58F9555D87E5D7507F0A83A434 /* Debug */,
+				BCA67D9903B2E948C131C08F3FD16729 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

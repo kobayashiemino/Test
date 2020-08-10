@@ -2,16 +2,19 @@ PODS:
   - GradientAnimator (1.3.1)
   - MarqueeLabel (4.0.2)
   - TKSubmitTransition (3.1.1)
+  - WCLShineButton (1.0.8)
 
 DEPENDENCIES:
   - GradientAnimator (~> 1.3.1)
   - MarqueeLabel
   - TKSubmitTransition (from `https://github.com/entotsu/TKSubmitTransition.git`)
+  - WCLShineButton
 
 SPEC REPOS:
   trunk:
     - GradientAnimator
     - MarqueeLabel
+    - WCLShineButton
 
 EXTERNAL SOURCES:
   TKSubmitTransition:
@@ -26,7 +29,8 @@ SPEC CHECKSUMS:
   GradientAnimator: 30c054568a68b5b03ae26586fdfca21036f6ad92
   MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
   TKSubmitTransition: 644b99291e301a03227fdb9f5709d81e09f6ad18
+  WCLShineButton: 315ee9b0024b1cc56dba34fb6a8878937eb8d0b1
 
-PODFILE CHECKSUM: 1a5764e96fe3e798c85c767d11373effe8c30f63
+PODFILE CHECKSUM: 938111d8623f295bec43baed2bf89a82dd1eb78b
 
 COCOAPODS: 1.8.4
