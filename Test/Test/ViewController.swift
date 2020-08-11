@@ -33,6 +33,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
             flowLayout.scrollDirection = .horizontal
             let QuestionSeetVC = QuestionPageController(collectionViewLayout: flowLayout)
             QuestionSeetVC.transitioningDelegate = self
+            QuestionSeetVC.modalPresentationStyle = .fullScreen
             self.present(QuestionSeetVC, animated: true, completion: nil)
         }
     }

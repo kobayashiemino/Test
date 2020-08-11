@@ -43,9 +43,6 @@ class QuestionPageCell : UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        setupButton(image: UIImage(fluent: .circle24Regular), frame: CGRect(x: self.frame.width / 2 - 50, y: self.frame.height / 2 + 40, width: 50, height: 50), selector: #selector(onClickNoButton))
-        setupButton(image: UIImage(fluent: .dismiss28Filled), frame: CGRect(x: self.frame.width / 2 + 50, y: self.frame.height / 2 + 40, width: 50, height: 50), selector: #selector(onClickYesButton))
-        
         messageLabel.frame = CGRect(x: 20, y: 50, width: self.frame.width - 40, height: 80)
         messageLabel.center.x = self.frame.width / 2
         self.addSubview(messageLabel)
@@ -54,25 +51,6 @@ class QuestionPageCell : UICollectionViewCell {
         questionLabel.center.x = self.frame.width / 2
         questionLabel.center.y = self.frame.height / 2
         self.addSubview(questionLabel)
-    }
-    
-    func setupButton(image: UIImage, frame: CGRect, selector: Selector) {
-        var params = WCLShineParams()
-        params.bigShineColor = UIColor(rgb: (r: 252, g: 134, b:
-            170))
-        params.smallShineColor = UIColor(rgb: (r: 253, g: 177, b: 71))
-        
-        let shiningButton = WCLShineButton(frame: frame, params: params)
-        shiningButton.fillColor = UIColor(rgb: (r: 252, g: 134, b:
-            170))
-        shiningButton.color = .white
-        shiningButton.image = .custom(image)
-        shiningButton.addTarget(self, action: selector, for: .valueChanged)
-        self.addSubview(shiningButton)
-    }
-    
-    @objc func onClickYesButton() {
-        
     }
     
     @objc func onClickNoButton() {
@@ -172,13 +150,53 @@ class QuestionPageController: UICollectionViewController, UICollectionViewDelega
         Page(messageLabel: "期待されていない、バカにされているから、相手を喜ばせる", questionLabel: "")
     ]
     
+    private var shiningButton : WCLShineButton?
+    private var currentPage = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         collectionView?.register(QuestionPageCell.self, forCellWithReuseIdentifier: cellId)
         collectionView?.isPagingEnabled = true
+        
+        setupButton()
     }
     
+    @objc func setupButton() {
+        shiningButton?.removeFromSuperview()
+        
+        var params = WCLShineParams()
+        params.bigShineColor = UIColor(rgb: (r: 252, g: 134, b:
+            170))
+        params.smallShineColor = UIColor(rgb: (r: 253, g: 177, b: 71))
+        
+        shiningButton = WCLShineButton(frame: CGRect(x: self.view.frame.width / 2 - 75, y: self.view.frame.height / 2, width: 50, height: 50), params: params)
+        print(self.view.frame.height)
+        shiningButton!.fillColor = UIColor(rgb: (r: 252, g: 134, b:
+            170))
+        shiningButton!.color = .white
+        shiningButton!.image = .custom(UIImage(fluent: .circle24Regular))
+        shiningButton!.addTarget(self, action: #selector(onClickYesButton), for: .touchUpInside)
+        self.view.addSubview(shiningButton!)
+    }
+    
+    @objc func onClickYesButton() {
+        let pagesCount = pages.count
+        let nextIndex = min(currentPage + 1, pagesCount - 1)
+        let indexPath = IndexPath(item: nextIndex, section: 0)
+        currentPage = nextIndex
+        collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: false)
+        
+        Timer.scheduledTimer(timeInterval: 0.5,
+        target: self,
+        selector: #selector(setupButton),
+        userInfo: nil,
+        repeats: false)
+    }
+    
+    @objc func onClickNoButton() {
+        
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
