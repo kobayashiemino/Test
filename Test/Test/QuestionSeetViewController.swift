@@ -4,7 +4,7 @@ import MarqueeLabel
 import WCLShineButton
 import FluentIcons
 
-class QuestionSeetViewController: UIViewController{
+class QuestionSeetViewController: UIViewController {
     
     private let viewWidth : CGFloat = UIScreen.main.bounds.width
     private let viewHeight : CGFloat = UIScreen.main.bounds.height

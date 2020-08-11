@@ -29,7 +29,9 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     func didFinishYourLoading() {
         startButton.startFinishAnimation(1.5){
             //Your Transition
-            let QuestionSeetVC = QuestionSeetViewController()
+            let flowLayout = UICollectionViewFlowLayout()
+            flowLayout.scrollDirection = .horizontal
+            let QuestionSeetVC = QuestionPageController(collectionViewLayout: flowLayout)
             QuestionSeetVC.transitioningDelegate = self
             self.present(QuestionSeetVC, animated: true, completion: nil)
         }
