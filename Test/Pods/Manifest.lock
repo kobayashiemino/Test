@@ -1,0 +1,46 @@
+PODS:
+  - FluentIcons (1.1.43):
+    - FluentIcons/Assets (= 1.1.43)
+    - FluentIcons/Code (= 1.1.43)
+    - FluentIcons/RemovalScript (= 1.1.43)
+  - FluentIcons/Assets (1.1.43)
+  - FluentIcons/Code (1.1.43)
+  - FluentIcons/RemovalScript (1.1.43)
+  - GradientAnimator (1.3.1)
+  - MarqueeLabel (4.0.2)
+  - TKSubmitTransition (3.1.1)
+  - WCLShineButton (1.0.8)
+
+DEPENDENCIES:
+  - FluentIcons (= 1.1.43)
+  - GradientAnimator (~> 1.3.1)
+  - MarqueeLabel
+  - TKSubmitTransition (from `https://github.com/entotsu/TKSubmitTransition.git`)
+  - WCLShineButton
+
+SPEC REPOS:
+  trunk:
+    - FluentIcons
+    - GradientAnimator
+    - MarqueeLabel
+    - WCLShineButton
+
+EXTERNAL SOURCES:
+  TKSubmitTransition:
+    :git: https://github.com/entotsu/TKSubmitTransition.git
+
+CHECKOUT OPTIONS:
+  TKSubmitTransition:
+    :commit: 1960d8e644c2dd3aa4585b6ed562f90ec8e13065
+    :git: https://github.com/entotsu/TKSubmitTransition.git
+
+SPEC CHECKSUMS:
+  FluentIcons: 5cec7302c4b1eed93e88e751ce7ce72b8f4eb005
+  GradientAnimator: 30c054568a68b5b03ae26586fdfca21036f6ad92
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
+  TKSubmitTransition: 644b99291e301a03227fdb9f5709d81e09f6ad18
+  WCLShineButton: 315ee9b0024b1cc56dba34fb6a8878937eb8d0b1
+
+PODFILE CHECKSUM: ac39803c99072a9d488c1d2701a7bc32c03bce95
+
+COCOAPODS: 1.8.4
